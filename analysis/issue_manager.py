@@ -69,3 +69,12 @@ def update_issue(issues,issue_id,new_status):
 
     return False
 
+
+def delete_issue(issues,issue_id):
+    issue = find_issue(issues,issue_id)
+
+    if(issue):
+        issues.remove(issue)
+        return True
+
+    return False
