@@ -115,19 +115,19 @@ if __name__ == "__main__":
     print("Average Selling Price:",
           sales_results["average_price"])
 
-    print("\nTop 5 Products:")
+    print("Top 5 Products:")
     print(sales_results["top_products"])
 
-    print("\nRevenue by Region:")
+    print("Revenue by Region:")
     print(sales_results["region_revenue"])
 
-    print("\nRevenue by Channel:")
+    print("Revenue by Channel:")
     print(sales_results["channel_revenue"])
 
-    print("\nProduct Analysis:")
+    print("Product Analysis:")
     print(product_analysis)
 
-    print("\nDetected Issues:")
+    print("Detected Issues:")
 
     for issue in issues:
         print(issue)
