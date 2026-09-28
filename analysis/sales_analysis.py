@@ -1,5 +1,6 @@
 from data_loader import load_sales_data
 from product_loader import load_product_data
+from issue_manager import create_issue, load_issues, save_issues,update_issue,find_issue
 
 def analyze_sales(df):
 
@@ -58,9 +59,7 @@ def analyze_products(sales_df,products_df):
 
 
 
-def detect_issues(product_analysis):
-
-    issues = []
+def detect_issues(product_analysis,issues):
 
     LOW_SALES_THRESHOLD = 100
     LOW_MARGIN_THRESHOLD = 1
@@ -68,34 +67,25 @@ def detect_issues(product_analysis):
     for _, product in product_analysis.iterrows():
 
         if product["stock"] < product["reorder_threshold"]:
-            issues.append({
-                "product_id" : product["product_id"],
-                "issue_type" : "LOW_STOCK",
-                "evidence" : (
-                    f"Stock {product['stock']} is below "
-                    f"reorder threshold {product['reorder_threshold']}")
-            })
+            create_issue(issues,product["product_id"],"LOW_STOCK",3,
+                            f"Stock {product['stock']} is below reorder threshold {product['reorder_threshold']}")
 
         if product["total_quantity"] < LOW_SALES_THRESHOLD:
-                issues.append({
-                "product_id" : product["product_id"],
-                "issue_type" : "LOW_SALES",
-                "evidence" : (
-                    f"Total quantity sold {product['total_quantity']} is below "
-                    f"threshold {LOW_SALES_THRESHOLD}")                   
-                })
+            create_issue(issues,product["product_id"],"LOW_SALES",2,
+                            f"Total quantity sold {product['total_quantity']} is below threshold {LOW_SALES_THRESHOLD}")
 
         if product["average_margin"] < LOW_MARGIN_THRESHOLD:
-            issues.append({
-                "product_id": product["product_id"],
-                "issue_type": "LOW_MARGIN",
-                "evidence": (
-                    f"Average margin {product['average_margin']:.2f}% "
-                    f"is below threshold {LOW_MARGIN_THRESHOLD}%")     
-            })
+            create_issue(issues,product["product_id"],"LOW_MARGIN",2,
+                            f"Average margin {product['average_margin']:.2f}% is below threshold {LOW_MARGIN_THRESHOLD}%")  
 
 
     return issues
+
+
+
+
+
+
 
 if __name__ == "__main__":
 
@@ -105,29 +95,43 @@ if __name__ == "__main__":
     sales_results = analyze_sales(sales_df)
     
     product_analysis = analyze_products(sales_df,products_df)
-    issues = detect_issues(product_analysis)
-    print("\nTotal Revenue:",
-          sales_results["total_revenue"])
 
-    print("Total Quantity:",
-          sales_results["total_quantity"])
 
-    print("Average Selling Price:",
-          sales_results["average_price"])
 
-    print("Top 5 Products:")
-    print(sales_results["top_products"])
 
-    print("Revenue by Region:")
-    print(sales_results["region_revenue"])
 
-    print("Revenue by Channel:")
-    print(sales_results["channel_revenue"])
+    issues = load_issues()
 
-    print("Product Analysis:")
-    print(product_analysis)
+    # issues = detect_issues(product_analysis,issues)
+    result = update_issue(issues, "ISS-099", "RESOLVED")
 
-    print("Detected Issues:")
+    print("Update successful:", result)
+    print("Updated Issue:", find_issue(issues, "ISS-001"))
+    save_issues(issues)
+
+
+    # print("Total Revenue:",
+    #       sales_results["total_revenue"])
+
+    # print("Total Quantity:",
+    #       sales_results["total_quantity"])
+
+    # print("Average Selling Price:",
+    #       sales_results["average_price"])
+
+    # print("Top 5 Products:")
+    # print(sales_results["top_products"])
+
+    # print("Revenue by Region:")
+    # print(sales_results["region_revenue"])
+
+    # print("Revenue by Channel:")
+    # print(sales_results["channel_revenue"])
+
+    # print("Product Analysis:")
+    # print(product_analysis)
+
+    # print("Detected Issues:")
 
     for issue in issues:
         print(issue)

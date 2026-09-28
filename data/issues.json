@@ -1,0 +1,10 @@
+[
+    {
+        "issue_id": "ISS-001",
+        "product_id": "P001",
+        "issue_type": "LOW_STOCK",
+        "status": "RESOLVED",
+        "priority": 3,
+        "evidence": "Stock 1 is below reorder threshold 40"
+    }
+]
