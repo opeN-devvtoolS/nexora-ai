@@ -1,0 +1,16 @@
+product_id,product_name,category,unit_cost,selling_price,stock,reorder_threshold
+P001,Aero Wireless Mouse,Electronics,8.5,19.99,61,40
+P002,Lumos LED Desk Lamp,Electronics,11,24.99,64,30
+P003,SoundWave Bluetooth Speaker,Electronics,22,49.99,86,25
+P004,ChargeFast USB-C Cable 2m,Electronics,2.2,8.99,127,60
+P005,PixelView 24in Monitor,Electronics,95,179.99,104,15
+P006,BrewMaster Coffee Maker,Home & Kitchen,28,59.99,76,20
+P007,ChopPro Knife Set,Home & Kitchen,15,34.99,118,20
+P008,AromaMist Diffuser,Home & Kitchen,9,22.99,44,25
+P009,NonStick Frying Pan 28cm,Home & Kitchen,7.5,18.99,118,30
+P010,CozyKnit Throw Blanket,Apparel,6,17.99,162,25
+P011,TrailFlex Running Shoes,Apparel,24,64.99,96,20
+P012,UrbanFit Backpack,Apparel,14,39.99,159,25
+P013,FlexBand Resistance Set,Sports,6.5,16.99,38,30
+P014,ProGrip Yoga Mat,Sports,8,21.99,149,25
+P015,SwiftRide Water Bottle 1L,Sports,3,11.99,78,35
