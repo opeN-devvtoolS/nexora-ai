@@ -1,6 +1,6 @@
 from data_loader import load_sales_data
 from product_loader import load_product_data
-from issue_manager import create_issue, load_issues, save_issues,update_issue,find_issue
+from issue_manager import create_issue, load_issues, save_issues
 
 def analyze_sales(df):
 
@@ -100,13 +100,9 @@ if __name__ == "__main__":
 
 
 
-    issues = load_issues()
+    issues = load_issues() #Important
 
-    # issues = detect_issues(product_analysis,issues)
-    result = update_issue(issues, "ISS-099", "RESOLVED")
-
-    print("Update successful:", result)
-    print("Updated Issue:", find_issue(issues, "ISS-001"))
+    issues = detect_issues(product_analysis,issues)
     save_issues(issues)
 
 
