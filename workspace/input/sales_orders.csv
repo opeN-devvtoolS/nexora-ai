@@ -1,0 +1,421 @@
+Order ID,Order Date,Region,Sales Rep,Category,Product,Customer Segment,Payment Method,Quantity,Unit Price,Discount %,Revenue,Profit,Delivery Days,Returned
+ORD-10048,2025-10-01,South,Priya Menon,Software,Antivirus License,Consumer,PayPal,23,42.89,0.0,986.47,665.25,3,No
+ORD-10411,2025-10-03,East,Chen Wei,Software,Design Suite,Small Business,Cash on Delivery,7,301.15,20.0,1686.44,911.18,2,No
+ORD-10237,2025-10-03,North,Amira Hassan,Office Supplies,Notebook Pack,Corporate,PayPal,43,11.73,0.0,504.39,195.66,2,No
+ORD-10079,2025-10-04,East,Chen Wei,Furniture,Office Chair,Corporate,Bank Transfer,7,180.51,0.0,1263.57,346.83,4,No
+ORD-10178,2025-10-04,West,Zoe Adams,Furniture,Standing Desk,Corporate,Credit Card,4,438.28,20.0,1402.5,116.04,5,No
+ORD-10308,2025-10-07,North,Tom Becker,Furniture,Standing Desk,Consumer,Cash on Delivery,1,443.03,30.0,310.12,9.9,5,No
+ORD-10226,2025-10-08,North,Amira Hassan,Office Supplies,Stapler,Consumer,Cash on Delivery,3,15.95,0.0,47.85,18.14,2,No
+ORD-10166,2025-10-10,West,Zoe Adams,Office Supplies,Notebook Pack,Consumer,PayPal,25,12.02,15.0,255.42,70.11,6,No
+ORD-10410,2025-10-12,East,Sara Dahl,Office Supplies,Printer Paper,Small Business,Bank Transfer,17,26.54,0.0,451.18,155.1,4,No
+ORD-10320,2025-10-12,West,Mike Turner,Electronics,Headphones,Small Business,PayPal,3,120.52,30.0,253.09,-50.42,6,No
+ORD-10056,2025-10-12,North,Tom Becker,Office Supplies,Stapler,Corporate,Cash on Delivery,2,16.14,0.0,32.28,11.77,6,No
+ORD-10388,2025-10-14,West,Mike Turner,Electronics,Laptop,Corporate,PayPal,2,926.96,5.0,1761.22,252.35,4,No
+ORD-10163,2025-10-14,East,Chen Wei,Electronics,Laptop,Consumer,Credit Card,2,881.17,0.0,1762.34,238.32,5,Yes
+ORD-10105,2025-10-16,East,Chen Wei,Furniture,Bookshelf,Small Business,Cash on Delivery,2,124.31,0.0,248.62,63.48,3,Yes
+ORD-10230,2025-10-18,West,Mike Turner,Software,Design Suite,Small Business,Bank Transfer,4,309.69,15.0,1052.95,624.44,3,No
+ORD-10061,2025-10-18,East,Sara Dahl,Furniture,Standing Desk,Corporate,Bank Transfer,2,439.09,5.0,834.27,181.48,4,No
+ORD-10354,2025-10-19,South,Luis Ortega,Software,Design Suite,Small Business,Credit Card,7,314.21,0.0,2199.47,1399.46,5,No
+ORD-10058,2025-10-20,East,Sara Dahl,Software,Accounting Tool,Small Business,Bank Transfer,14,196.55,0.0,2751.7,1785.09,4,No
+ORD-10098,2025-10-20,North,Tom Becker,Office Supplies,Pen Set,Small Business,Bank Transfer,14,9.29,30.0,91.04,15.15,3,Yes
+ORD-10148,2025-10-20,South,Luis Ortega,Furniture,Office Chair,Small Business,Credit Card,3,172.19,25.0,387.43,17.18,4,No
+ORD-10169,2025-10-21,North,Tom Becker,Software,Accounting Tool,Small Business,Credit Card,26,197.11,0.0,5124.86,3274.83,3,No
+ORD-10170,2025-10-21,South,Priya Menon,Furniture,Office Chair,Small Business,Bank Transfer,3,173.82,0.0,521.46,155.2,4,No
+ORD-10199,2025-10-21,South,Luis Ortega,Furniture,Standing Desk,Small Business,Bank Transfer,1,436.64,30.0,305.65,4.86,5,No
+ORD-10207,2025-10-23,North,Tom Becker,Furniture,Office Chair,Corporate,PayPal,2,187.42,0.0,374.84,108.65,5,No
+ORD-10329,2025-10-23,West,Zoe Adams,Electronics,Headphones,Corporate,Bank Transfer,2,121.3,0.0,242.6,44.13,8,No
+ORD-10128,2025-10-24,East,Sara Dahl,Office Supplies,Notebook Pack,Corporate,,38,12.2,,463.6,187.95,,No
+ORD-10051,2025-10-26,West,Zoe Adams,Furniture,Office Chair,Corporate,Bank Transfer,7,186.08,0.0,1302.56,405.33,5,No
+ORD-10248,2025-10-27,West,Mike Turner,Software,Accounting Tool,Corporate,PayPal,10,199.37,20.0,1594.96,971.8,2,No
+ORD-10063,2025-10-28,North,Amira Hassan,Furniture,Bookshelf,Corporate,Bank Transfer,7,124.52,15.0,740.89,124.2,1,No
+ORD-10339,2025-10-28,East,Chen Wei,Software,Design Suite,Small Business,Credit Card,23,321.32,0.0,7390.36,4630.88,3,No
+ORD-10270,2025-10-29,East,Sara Dahl,Software,Antivirus License,Consumer,Credit Card,28,43.19,0.0,1209.32,761.2,4,No
+ORD-10335,2025-10-31,East,Chen Wei,Office Supplies,Printer Paper,Corporate,Cash on Delivery,40,26.51,0.0,1060.4,418.57,7,No
+ORD-10216,2025-10-31,East,Sara Dahl,Office Supplies,Pen Set,Corporate,PayPal,19,9.21,25.0,131.24,20.7,3,No
+ORD-10055,2025-11-01,East,Sara Dahl,Electronics,Headphones,Consumer,PayPal,4,115.44,20.0,369.41,-31.43,2,No
+ORD-10044,2025-11-01,East,Chen Wei,Office Supplies,Stapler,Small Business,Bank Transfer,10,14.82,25.0,111.15,13.48,4,No
+ORD-10077,2025-11-02,South,Priya Menon,Office Supplies,Printer Paper,Consumer,PayPal,21,25.83,0.0,542.43,220.19,4,No
+ORD-10067,2025-11-02,West,Zoe Adams,Furniture,Standing Desk,Small Business,PayPal,1,483.52,10.0,435.17,91.38,3,No
+ORD-10258,2025-11-02,South,Priya Menon,Office Supplies,Pen Set,Small Business,PayPal,22,8.63,5.0,180.37,75.74,2,No
+ORD-10420,2025-11-02,East,Sara Dahl,Electronics,Tablet,Corporate,Bank Transfer,2,427.51,20.0,684.02,-44.97,5,No
+ORD-10042,2025-11-03,East,Sara Dahl,Electronics,Laptop,Consumer,Cash on Delivery,2,954.0,5.0,1812.6,174.4,1,No
+ORD-10397,2025-11-05,West,Zoe Adams,Electronics,Tablet,Consumer,Bank Transfer,3,388.92,20.0,933.41,-35.62,4,Yes
+ORD-10002,2025-11-05,North,Tom Becker,Electronics,Laptop,Small Business,Bank Transfer,1,965.85,20.0,772.68,-6.32,4,No
+ORD-10214,2025-11-06,East,Sara Dahl,Software,Antivirus License,Small Business,PayPal,27,40.28,0.0,1087.56,701.35,3,Yes
+ORD-10275,2025-11-06,West,Zoe Adams,Electronics,Headphones,Small Business,Bank Transfer,3,121.77,5.0,347.04,38.87,5,No
+ORD-10031,2025-11-07,South,Luis Ortega,Office Supplies,Pen Set,Consumer,PayPal,3,8.65,10.0,23.36,8.65,2,No
+ORD-10362,2025-11-07,East,Chen Wei,Office Supplies,Stapler,Corporate,Bank Transfer,40,14.66,0.0,586.4,209.44,4,No
+ORD-10053,2025-11-08,North,Tom Becker,Office Supplies,Stapler,Corporate,Bank Transfer,22,16.02,0.0,352.44,135.94,3,No
+ORD-10043,2025-11-09,East,Sara Dahl,Office Supplies,Printer Paper,Consumer,Bank Transfer,11,24.0,10.0,237.6,67.71,2,Yes
+ORD-10338,2025-11-10,East,Chen Wei,Electronics,Smartphone,Corporate,Bank Transfer,5,653.41,0.0,3267.05,308.33,3,No
+ORD-10071,2025-11-13,North,Tom Becker,Office Supplies,Stapler,Consumer,Credit Card,14,14.59,25.0,153.19,26.18,2,No
+ORD-10143,2025-11-13,East,Sara Dahl,Office Supplies,Printer Paper,Small Business,Cash on Delivery,30,26.31,5.0,749.83,253.99,4,No
+ORD-10045,2025-11-13,West,Mike Turner,Furniture,Office Chair,Corporate,Bank Transfer,5,190.19,20.0,760.76,96.74,9,Yes
+ORD-10036,2025-11-13,East,Sara Dahl,Software,Accounting Tool,Small Business,PayPal,8,215.24,10.0,1549.73,942.42,4,No
+ORD-10222,2025-11-14,East,Chen Wei,Office Supplies,Pen Set,Small Business,Credit Card,27,8.75,15.0,200.81,55.56,1,No
+ORD-10054,2025-11-16,South,Priya Menon,Electronics,Headphones,Small Business,Cash on Delivery,4,127.84,20.0,409.09,-7.86,4,No
+ORD-10046,2025-11-16,North,Tom Becker,Software,Antivirus License,Small Business,Bank Transfer,17,41.14,10.0,629.44,401.18,2,No
+ORD-10182,2025-11-17,North,Tom Becker,Furniture,Office Chair,Small Business,PayPal,2,190.33,0.0,380.66,110.65,2,No
+ORD-10280,2025-11-17,North,Tom Becker,Software,Accounting Tool,Consumer,Bank Transfer,7,205.18,0.0,1436.26,885.33,4,No
+ORD-10343,2025-11-18,West,Zoe Adams,Furniture,Office Chair,Consumer,PayPal,1,171.72,5.0,163.13,42.82,3,No
+ORD-10181,2025-11-20,South,Priya Menon,Office Supplies,Printer Paper,Corporate,PayPal,25,26.61,20.0,532.2,128.15,4,No
+ORD-10124,2025-11-21,East,Chen Wei,Electronics,Tablet,Consumer,Credit Card,2,398.02,20.0,636.83,-41.37,3,No
+ORD-10333,2025-11-21,North,Tom Becker,Furniture,Standing Desk,Small Business,Credit Card,3,436.15,5.0,1243.03,337.44,4,No
+ORD-10378,2025-11-23,West,Mike Turner,Office Supplies,Pen Set,Small Business,PayPal,5,8.71,0.0,43.55,15.85,6,No
+ORD-10024,2025-11-24,West,Mike Turner,Electronics,Smartphone,Consumer,Credit Card,4,621.07,30.0,1739.0,-224.49,6,No
+ORD-10175,2025-11-25,East,Chen Wei,Furniture,Bookshelf,Small Business,Cash on Delivery,2,129.46,10.0,233.03,46.73,2,No
+ORD-10324,2025-11-26,North,Tom Becker,Electronics,Laptop,Consumer,PayPal,2,909.25,30.0,1272.95,-156.57,2,No
+ORD-10249,2025-11-27,North,Amira Hassan,Electronics,Smartphone,Small Business,Cash on Delivery,3,630.24,0.0,1890.72,340.68,2,Yes
+ORD-10369,2025-11-28,North,Amira Hassan,Software,Antivirus License,Consumer,Cash on Delivery,17,40.44,15.0,584.36,337.64,5,No
+ORD-10156,2025-11-28,North,Amira Hassan,Office Supplies,Printer Paper,Corporate,Cash on Delivery,7,25.57,10.0,161.09,53.99,1,No
+ORD-10349,2025-11-30,North,Tom Becker,Furniture,Standing Desk,Corporate,,2,441.49,,882.98,244.62,,No
+ORD-10327,2025-11-30,West,Zoe Adams,Electronics,Headphones,Consumer,Bank Transfer,1,126.48,20.0,101.18,-7.89,4,No
+ORD-10223,2025-12-02,North,Tom Becker,Office Supplies,Notebook Pack,Corporate,Credit Card,7,12.67,15.0,75.39,19.13,3,Yes
+ORD-10065,2025-12-03,East,Chen Wei,Furniture,Standing Desk,Corporate,Cash on Delivery,2,475.59,0.0,951.18,253.36,3,No
+ORD-10165,2025-12-03,East,Sara Dahl,Electronics,Laptop,Consumer,Cash on Delivery,2,902.46,5.0,1714.67,199.6,5,Yes
+ORD-10193,2025-12-05,East,Sara Dahl,Software,Antivirus License,Corporate,Bank Transfer,11,38.83,20.0,341.7,170.39,6,No
+ORD-10030,2025-12-06,West,Zoe Adams,Furniture,Bookshelf,Small Business,Bank Transfer,4,139.03,15.0,472.7,80.92,6,No
+ORD-10022,2025-12-07,North,Tom Becker,Software,Accounting Tool,Small Business,Credit Card,14,205.17,30.0,2010.67,1027.79,4,No
+ORD-10277,2025-12-08,North,Tom Becker,Furniture,Office Chair,Corporate,Bank Transfer,4,191.47,10.0,689.29,164.71,3,No
+ORD-10336,2025-12-08,South,Priya Menon,Software,Antivirus License,Consumer,Cash on Delivery,6,39.69,25.0,178.6,103.84,7,No
+ORD-10247,2025-12-09,West,Zoe Adams,Electronics,Laptop,Consumer,Cash on Delivery,2,911.81,15.0,1550.08,12.49,4,Yes
+ORD-10358,2025-12-09,East,Chen Wei,Electronics,Tablet,Small Business,Bank Transfer,4,388.71,20.0,1243.87,-86.5,5,No
+ORD-10221,2025-12-10,South,Luis Ortega,Furniture,Office Chair,Consumer,Cash on Delivery,2,179.71,25.0,269.56,22.32,6,No
+ORD-10021,2025-12-11,East,Chen Wei,Software,Antivirus License,Consumer,PayPal,10,38.15,30.0,267.05,128.41,5,No
+ORD-10405,2025-12-11,North,Amira Hassan,Electronics,Tablet,Small Business,Credit Card,1,393.72,0.0,393.72,53.99,2,No
+ORD-10353,2025-12-11,East,Chen Wei,Furniture,Standing Desk,Corporate,Credit Card,4,470.81,5.0,1789.08,455.88,4,No
+ORD-10342,2025-12-12,East,Sara Dahl,Office Supplies,Pen Set,Corporate,Bank Transfer,10,9.63,0.0,96.3,35.99,5,No
+ORD-10231,2025-12-12,East,Sara Dahl,Software,Design Suite,Small Business,,28,313.84,,8348.14,5009.64,,No
+ORD-10014,2025-12-13,North,Tom Becker,Office Supplies,Stapler,Consumer,PayPal,17,15.87,0.0,269.79,111.61,7,No
+ORD-10003,2025-12-13,East,Sara Dahl,Office Supplies,Printer Paper,Small Business,Credit Card,21,24.08,5.0,480.4,155.14,5,No
+ORD-10112,2025-12-15,West,Zoe Adams,Furniture,Office Chair,Consumer,Credit Card,3,173.56,5.0,494.65,133.53,4,No
+ORD-10155,2025-12-16,South,Priya Menon,Electronics,Laptop,Corporate,Cash on Delivery,5,886.72,0.0,4433.6,908.31,4,No
+ORD-10406,2025-12-16,East,Chen Wei,Electronics,Tablet,Corporate,Bank Transfer,7,424.65,0.0,2972.55,366.57,2,No
+ORD-10255,2025-12-17,South,Priya Menon,Software,Antivirus License,Small Business,PayPal,1,42.67,5.0,40.54,24.55,1,No
+ORD-10010,2025-12-17,North,Amira Hassan,Electronics,Headphones,Small Business,PayPal,2,114.19,10.0,205.54,17.76,4,No
+ORD-10409,2025-12-17,West,Mike Turner,Furniture,Bookshelf,Consumer,Cash on Delivery,4,135.0,30.0,378.0,-1.98,4,No
+ORD-10261,2025-12-18,East,Sara Dahl,Electronics,Smartphone,Small Business,PayPal,3,673.52,25.0,1515.42,-229.37,2,No
+ORD-10394,2025-12-19,East,Chen Wei,Electronics,Tablet,Corporate,Bank Transfer,4,421.78,10.0,1518.41,56.2,3,No
+ORD-10027,2025-12-19,West,Zoe Adams,Electronics,Headphones,Consumer,Bank Transfer,1,129.09,20.0,103.27,-2.99,5,Yes
+ORD-10150,2025-12-21,South,Luis Ortega,Software,Antivirus License,Corporate,Credit Card,19,38.9,0.0,739.1,514.71,2,No
+ORD-10227,2025-12-21,East,Sara Dahl,Furniture,Bookshelf,Corporate,Credit Card,5,132.24,30.0,462.84,-13.93,7,Yes
+ORD-10107,2025-12-21,South,Luis Ortega,Software,Antivirus License,Consumer,Credit Card,21,40.59,0.0,852.39,511.04,4,No
+ORD-10117,2025-12-22,East,Chen Wei,Office Supplies,Notebook Pack,Corporate,,28,12.72,,338.35,113.76,,No
+ORD-10366,2025-12-22,South,Luis Ortega,Software,Design Suite,Small Business,Bank Transfer,7,317.59,5.0,2111.97,1325.71,1,No
+ORD-10284,2025-12-23,South,Luis Ortega,Furniture,Bookshelf,Corporate,Bank Transfer,5,138.26,0.0,691.3,221.98,4,No
+ORD-10120,2025-12-24,North,Amira Hassan,Office Supplies,Printer Paper,Small Business,Cash on Delivery,24,25.27,5.0,576.16,214.97,3,No
+ORD-10087,2025-12-24,East,Chen Wei,Electronics,Smartphone,Corporate,Cash on Delivery,4,669.08,15.0,2274.87,20.49,3,Yes
+ORD-10206,2025-12-26,East,Chen Wei,Office Supplies,Stapler,Corporate,PayPal,41,15.89,5.0,618.92,219.39,4,No
+ORD-10133,2025-12-29,North,Amira Hassan,Software,Design Suite,Small Business,PayPal,1,315.21,15.0,267.93,159.99,3,No
+ORD-10235,2025-12-29,South,Priya Menon,Office Supplies,Printer Paper,Consumer,Bank Transfer,23,25.79,0.0,593.17,250.71,5,No
+ORD-10019,2025-12-31,East,Sara Dahl,Electronics,Tablet,Small Business,Bank Transfer,1,404.08,0.0,404.08,60.58,4,No
+ORD-10023,2026-01-02,East,Chen Wei,Electronics,Tablet,Consumer,Cash on Delivery,1,412.19,15.0,350.36,-6.29,2,No
+ORD-10225,2026-01-03,North,Tom Becker,Software,Accounting Tool,Consumer,PayPal,19,199.9,10.0,3418.29,1976.14,3,No
+ORD-10374,2026-01-03,North,Tom Becker,Software,Design Suite,Consumer,PayPal,8,290.12,25.0,1740.72,940.0,1,No
+ORD-10064,2026-01-03,East,Sara Dahl,Electronics,Tablet,Corporate,Credit Card,7,423.63,0.0,2965.41,448.2,4,No
+ORD-10279,2026-01-03,East,Sara Dahl,Electronics,Smartphone,Consumer,Cash on Delivery,1,627.82,10.0,565.04,25.81,4,No
+ORD-10173,2026-01-05,East,Sara Dahl,Software,Design Suite,Corporate,PayPal,10,285.46,5.0,2711.87,1647.27,5,No
+ORD-10344,2026-01-06,North,Amira Hassan,Electronics,Smartphone,Consumer,,1,673.37,,673.37,95.74,,No
+ORD-10234,2026-01-06,East,Chen Wei,Office Supplies,Pen Set,Corporate,Cash on Delivery,19,9.23,20.0,140.3,29.15,1,No
+ORD-10266,2026-01-07,West,Zoe Adams,Electronics,Headphones,Consumer,Cash on Delivery,1,119.14,25.0,89.36,-11.89,7,No
+ORD-10083,2026-01-07,North,Amira Hassan,Office Supplies,Pen Set,Small Business,Cash on Delivery,15,8.69,30.0,91.24,15.67,1,No
+ORD-10319,2026-01-08,North,Amira Hassan,Furniture,Office Chair,Small Business,PayPal,2,189.49,10.0,341.08,79.64,6,No
+ORD-10081,2026-01-10,South,Luis Ortega,Software,Design Suite,Small Business,Bank Transfer,30,297.27,20.0,7134.48,4351.43,5,No
+ORD-10376,2026-01-10,South,Priya Menon,Office Supplies,Stapler,Consumer,Credit Card,4,15.28,0.0,61.12,24.65,2,No
+ORD-10106,2026-01-12,South,Luis Ortega,Electronics,Tablet,Small Business,PayPal,2,384.98,25.0,577.47,-66.56,1,No
+ORD-10026,2026-01-12,West,Mike Turner,Furniture,Standing Desk,Consumer,Credit Card,2,453.36,20.0,725.38,105.5,6,No
+ORD-10396,2026-01-12,West,Mike Turner,Office Supplies,Printer Paper,Corporate,Cash on Delivery,46,24.64,30.0,793.41,154.83,7,No
+ORD-10160,2026-01-12,North,Tom Becker,Software,Antivirus License,Corporate,Cash on Delivery,17,40.7,10.0,622.71,395.65,1,No
+ORD-10018,2026-01-13,East,Chen Wei,Office Supplies,Pen Set,Consumer,Bank Transfer,27,9.49,0.0,256.23,103.46,2,No
+ORD-10286,2026-01-13,West,Mike Turner,Office Supplies,Printer Paper,Consumer,Bank Transfer,4,26.64,0.0,106.56,37.92,6,No
+ORD-10147,2026-01-13,West,Zoe Adams,Office Supplies,Printer Paper,Corporate,Bank Transfer,22,24.6,0.0,541.2,229.14,5,No
+ORD-10144,2026-01-14,West,Mike Turner,Office Supplies,Stapler,Small Business,PayPal,26,15.3,15.0,338.13,96.73,4,No
+ORD-10341,2026-01-16,East,Chen Wei,Office Supplies,Notebook Pack,Corporate,Credit Card,5,12.48,0.0,62.4,23.16,2,No
+ORD-10136,2026-01-17,West,Mike Turner,Furniture,Office Chair,Consumer,Credit Card,1,187.0,5.0,177.65,46.16,5,No
+ORD-10296,2026-01-18,North,Tom Becker,Software,Accounting Tool,Corporate,Cash on Delivery,5,190.85,10.0,858.83,540.22,6,No
+ORD-10174,2026-01-19,South,Luis Ortega,Electronics,Laptop,Corporate,PayPal,7,925.89,0.0,6481.23,1087.59,3,No
+ORD-10212,2026-01-19,East,Sara Dahl,Office Supplies,Pen Set,Small Business,Cash on Delivery,3,9.26,0.0,27.78,10.27,3,No
+ORD-10153,2026-01-21,North,Tom Becker,Software,Antivirus License,Consumer,Cash on Delivery,30,42.05,20.0,1009.2,587.12,2,No
+ORD-10062,2026-01-22,South,Priya Menon,Electronics,Tablet,Consumer,Bank Transfer,4,411.73,20.0,1317.54,18.58,3,No
+ORD-10082,2026-01-22,East,Chen Wei,Software,Antivirus License,Consumer,Bank Transfer,13,40.94,30.0,372.55,183.86,5,No
+ORD-10269,2026-01-22,West,Mike Turner,Electronics,Laptop,Consumer,PayPal,4,954.23,0.0,3816.92,663.75,5,No
+ORD-10059,2026-01-23,West,Mike Turner,Electronics,Smartphone,Corporate,Bank Transfer,5,701.69,5.0,3333.03,362.97,6,Yes
+ORD-10219,2026-01-25,East,Chen Wei,Office Supplies,Notebook Pack,Small Business,Cash on Delivery,19,12.55,0.0,238.45,93.54,2,No
+ORD-10200,2026-01-25,East,Sara Dahl,Software,Accounting Tool,Corporate,PayPal,46,207.79,0.0,9558.34,6317.42,5,No
+ORD-10159,2026-01-26,East,Chen Wei,Office Supplies,Notebook Pack,Small Business,Bank Transfer,16,12.79,10.0,184.18,57.14,4,No
+ORD-10287,2026-01-26,North,Amira Hassan,Electronics,Smartphone,Corporate,Credit Card,7,701.84,30.0,3439.02,-491.01,5,Yes
+ORD-10074,2026-01-27,West,Zoe Adams,Electronics,Smartphone,Consumer,,2,637.18,,1210.64,172.52,,No
+ORD-10039,2026-01-28,North,Amira Hassan,Office Supplies,Stapler,Small Business,Bank Transfer,16,15.74,0.0,251.84,99.25,6,Yes
+ORD-10157,2026-01-31,West,Mike Turner,Furniture,Standing Desk,Consumer,PayPal,3,479.93,0.0,1439.79,422.21,5,No
+ORD-10260,2026-01-31,East,Chen Wei,Software,Design Suite,Small Business,Cash on Delivery,28,291.93,0.0,8174.04,5122.93,,No
+ORD-10205,2026-02-01,North,Tom Becker,Electronics,Smartphone,Consumer,Cash on Delivery,2,676.49,5.0,1285.33,150.95,6,No
+ORD-10297,2026-02-01,North,Amira Hassan,Furniture,Office Chair,Corporate,Cash on Delivery,4,180.12,15.0,612.41,114.73,5,No
+ORD-10381,2026-02-02,East,Chen Wei,Electronics,Tablet,Consumer,Bank Transfer,3,404.58,25.0,910.31,-140.34,4,No
+ORD-10034,2026-02-03,West,Mike Turner,Office Supplies,Stapler,Small Business,Bank Transfer,27,15.53,20.0,335.45,87.22,5,No
+ORD-10111,2026-02-04,East,Sara Dahl,Electronics,Smartphone,Corporate,Cash on Delivery,2,698.26,0.0,1396.52,214.91,3,Yes
+ORD-10084,2026-02-05,East,Sara Dahl,Furniture,Standing Desk,Consumer,Cash on Delivery,4,437.96,25.0,1313.88,40.59,6,No
+ORD-10204,2026-02-05,West,Mike Turner,Furniture,Standing Desk,Small Business,Cash on Delivery,3,432.91,0.0,1298.73,402.83,7,No
+ORD-10057,2026-02-05,West,Mike Turner,Electronics,Laptop,Small Business,Bank Transfer,4,965.15,0.0,3860.6,627.44,5,No
+ORD-10346,2026-02-06,South,Luis Ortega,Office Supplies,Notebook Pack,Consumer,Bank Transfer,10,12.76,20.0,102.08,28.48,3,No
+ORD-10323,2026-02-06,East,Chen Wei,Office Supplies,Stapler,Small Business,Bank Transfer,13,15.76,0.0,204.88,79.67,1,No
+ORD-10138,2026-02-08,West,Mike Turner,Office Supplies,Notebook Pack,Small Business,Bank Transfer,22,11.49,0.0,252.78,95.52,6,No
+ORD-10357,2026-02-10,East,Sara Dahl,Office Supplies,Stapler,Consumer,Bank Transfer,18,14.52,0.0,261.36,97.02,5,No
+ORD-10134,2026-02-10,West,Mike Turner,Furniture,Standing Desk,Small Business,Credit Card,1,428.69,25.0,321.52,14.8,5,No
+ORD-10419,2026-02-11,South,Luis Ortega,Software,Antivirus License,Consumer,PayPal,9,40.46,10.0,327.73,208.64,3,No
+ORD-10115,2026-02-11,East,Chen Wei,Software,Antivirus License,Small Business,Cash on Delivery,23,42.07,0.0,967.61,614.44,5,Yes
+ORD-10075,2026-02-11,West,Mike Turner,Electronics,Smartphone,Corporate,Credit Card,5,635.89,0.0,3179.45,793.0,7,No
+ORD-10037,2026-02-12,South,Priya Menon,Software,Accounting Tool,Consumer,PayPal,29,198.41,10.0,5178.5,3241.97,4,No
+ORD-10264,2026-02-13,West,Mike Turner,Office Supplies,Stapler,Consumer,PayPal,5,15.92,20.0,63.68,16.49,5,No
+ORD-10050,2026-02-14,East,Sara Dahl,Electronics,Smartphone,Corporate,Bank Transfer,2,683.84,20.0,1094.14,-19.74,2,No
+ORD-10142,2026-02-15,East,Chen Wei,Furniture,Office Chair,Small Business,Cash on Delivery,2,190.0,10.0,342.0,78.03,3,No
+ORD-10359,2026-02-15,West,Zoe Adams,Electronics,Tablet,Consumer,Bank Transfer,1,427.57,10.0,384.81,41.96,7,No
+ORD-10253,2026-02-17,East,Chen Wei,Electronics,Laptop,Consumer,PayPal,1,968.06,20.0,774.45,-41.63,1,Yes
+ORD-10368,2026-02-17,North,Amira Hassan,Software,Antivirus License,Consumer,Bank Transfer,6,41.62,5.0,237.23,154.73,6,Yes
+ORD-10313,2026-02-18,East,Sara Dahl,Office Supplies,Printer Paper,Corporate,Credit Card,34,24.76,0.0,841.84,298.5,5,No
+ORD-10089,2026-02-20,East,Sara Dahl,Electronics,Smartphone,Small Business,Credit Card,1,627.22,15.0,533.14,10.27,3,No
+ORD-10177,2026-02-21,West,Mike Turner,Furniture,Standing Desk,Corporate,Cash on Delivery,5,468.02,10.0,2106.09,409.39,7,No
+ORD-10122,2026-02-21,South,Priya Menon,Furniture,Standing Desk,Small Business,Cash on Delivery,1,452.57,15.0,384.68,82.15,5,Yes
+ORD-10017,2026-02-21,East,Chen Wei,Office Supplies,Pen Set,Small Business,,12,9.07,,92.51,25.29,,No
+ORD-10236,2026-02-22,West,Mike Turner,Electronics,Laptop,Small Business,PayPal,1,967.69,0.0,967.69,194.39,7,No
+ORD-10191,2026-02-26,South,Priya Menon,Electronics,Tablet,Small Business,Bank Transfer,1,397.47,0.0,397.47,66.17,5,No
+ORD-10072,2026-02-28,South,Priya Menon,Furniture,Bookshelf,Corporate,Bank Transfer,4,127.9,0.0,511.6,164.8,4,No
+ORD-10121,2026-02-28,West,Mike Turner,Office Supplies,Stapler,Consumer,Bank Transfer,9,14.94,20.0,107.57,22.77,2,No
+ORD-10005,2026-03-03,East,Sara Dahl,Office Supplies,Pen Set,Consumer,Bank Transfer,4,9.26,30.0,25.93,1.67,5,No
+ORD-10281,2026-03-03,North,Amira Hassan,Software,Design Suite,Consumer,Cash on Delivery,22,292.58,10.0,5793.08,3650.42,4,No
+ORD-10367,2026-03-04,East,Chen Wei,Software,Accounting Tool,Small Business,Cash on Delivery,29,201.83,0.0,5853.07,3723.27,4,No
+ORD-10407,2026-03-04,North,Amira Hassan,Electronics,Laptop,Small Business,Bank Transfer,2,857.55,0.0,1715.1,292.82,4,No
+ORD-10321,2026-03-06,North,Amira Hassan,Office Supplies,Stapler,Small Business,PayPal,15,16.0,0.0,240.0,90.77,6,No
+ORD-10386,2026-03-07,North,Tom Becker,Office Supplies,Notebook Pack,Consumer,Credit Card,28,11.94,15.0,284.17,86.23,3,No
+ORD-10180,2026-03-09,East,Sara Dahl,Office Supplies,Stapler,Corporate,Credit Card,4,15.01,15.0,51.03,13.3,4,No
+ORD-10197,2026-03-09,North,Tom Becker,Electronics,Tablet,Corporate,PayPal,7,394.68,0.0,2762.76,529.04,3,No
+ORD-10257,2026-03-11,East,Chen Wei,Office Supplies,Stapler,Small Business,Cash on Delivery,18,15.24,20.0,219.46,48.58,6,No
+ORD-10011,2026-03-13,West,Mike Turner,Office Supplies,Stapler,Corporate,Credit Card,7,15.03,25.0,78.91,14.35,5,No
+ORD-10298,2026-03-13,West,Mike Turner,Software,Antivirus License,Consumer,PayPal,1,40.03,0.0,40.03,26.29,6,No
+ORD-10127,2026-03-14,East,Sara Dahl,Office Supplies,Stapler,Corporate,Credit Card,34,14.98,0.0,509.32,194.71,5,Yes
+ORD-10356,2026-03-14,North,Amira Hassan,Furniture,Bookshelf,Small Business,Bank Transfer,3,135.48,0.0,406.44,123.06,6,No
+ORD-10330,2026-03-15,North,Tom Becker,Software,Antivirus License,Consumer,Credit Card,18,38.38,0.0,690.84,429.83,3,No
+ORD-10001,2026-03-15,West,Zoe Adams,Office Supplies,Notebook Pack,Consumer,Credit Card,12,12.68,0.0,152.16,61.3,5,No
+ORD-10154,2026-03-15,West,Zoe Adams,Electronics,Smartphone,Consumer,,1,629.56,,629.56,102.1,,No
+ORD-10363,2026-03-16,West,Mike Turner,Software,Antivirus License,Consumer,Bank Transfer,18,42.98,20.0,618.91,337.4,6,No
+ORD-10314,2026-03-16,North,Tom Becker,Office Supplies,Printer Paper,Small Business,Credit Card,2,25.2,25.0,37.8,6.42,2,Yes
+ORD-10337,2026-03-16,South,Luis Ortega,Electronics,Laptop,Small Business,Bank Transfer,3,894.86,15.0,2281.89,241.21,4,No
+ORD-10384,2026-03-17,North,Tom Becker,Software,Design Suite,Corporate,Bank Transfer,19,322.03,15.0,5200.78,2980.48,4,Yes
+ORD-10282,2026-03-18,East,Chen Wei,Electronics,Smartphone,Small Business,Bank Transfer,4,685.86,0.0,2743.44,396.98,3,No
+ORD-10179,2026-03-19,South,Luis Ortega,Software,Antivirus License,Consumer,PayPal,1,43.06,0.0,43.06,28.38,7,No
+ORD-10370,2026-03-20,North,Amira Hassan,Electronics,Smartphone,Small Business,PayPal,1,625.22,10.0,562.7,67.04,6,No
+ORD-10104,2026-03-22,East,Chen Wei,Furniture,Standing Desk,Corporate,Credit Card,5,430.33,30.0,1506.15,-99.54,4,No
+ORD-10413,2026-03-22,North,Tom Becker,Software,Antivirus License,Consumer,PayPal,5,40.56,20.0,162.24,91.63,2,No
+ORD-10250,2026-03-23,East,Sara Dahl,Software,Antivirus License,Consumer,Bank Transfer,26,41.04,0.0,1067.04,702.17,4,No
+ORD-10311,2026-03-23,East,Sara Dahl,Electronics,Laptop,Small Business,PayPal,2,954.68,20.0,1527.49,-146.24,5,No
+ORD-10273,2026-03-24,North,Amira Hassan,Office Supplies,Notebook Pack,Corporate,Cash on Delivery,29,12.23,15.0,301.47,93.54,4,No
+ORD-10383,2026-03-24,East,Sara Dahl,Electronics,Laptop,Small Business,Credit Card,3,955.98,0.0,2867.94,425.78,2,No
+ORD-10035,2026-03-25,North,Amira Hassan,Furniture,Standing Desk,Consumer,Cash on Delivery,1,484.94,0.0,484.94,131.4,1,No
+ORD-10289,2026-03-25,North,Tom Becker,Office Supplies,Printer Paper,Corporate,Bank Transfer,40,23.78,20.0,760.96,223.09,4,No
+ORD-10052,2026-03-25,South,Priya Menon,Office Supplies,Pen Set,Consumer,Bank Transfer,10,9.03,25.0,67.72,13.53,3,No
+ORD-10244,2026-03-26,West,Zoe Adams,Office Supplies,Pen Set,Consumer,Cash on Delivery,4,9.47,0.0,37.88,15.82,6,No
+ORD-10304,2026-03-27,West,Mike Turner,Office Supplies,Notebook Pack,Small Business,PayPal,17,11.65,0.0,198.05,73.86,3,No
+ORD-10292,2026-03-28,East,Sara Dahl,Office Supplies,Stapler,Small Business,Bank Transfer,30,14.51,10.0,391.77,131.3,2,No
+ORD-10245,2026-03-29,North,Tom Becker,Furniture,Standing Desk,Small Business,Cash on Delivery,2,482.78,0.0,965.56,289.49,5,No
+ORD-10246,2026-03-31,North,Tom Becker,Office Supplies,Pen Set,Corporate,PayPal,11,9.58,0.0,105.38,37.29,4,No
+ORD-10108,2026-04-01,North,Tom Becker,Software,Accounting Tool,Small Business,,1,192.24,,163.4,96.93,,No
+ORD-10228,2026-04-03,East,Sara Dahl,Office Supplies,Stapler,Corporate,Credit Card,2,16.08,15.0,27.34,6.71,3,No
+ORD-10305,2026-04-03,West,Mike Turner,Electronics,Tablet,Corporate,Cash on Delivery,7,390.26,20.0,2185.46,-54.71,6,No
+ORD-10240,2026-04-04,East,Chen Wei,Office Supplies,Pen Set,Small Business,PayPal,9,8.82,25.0,59.53,10.09,1,No
+ORD-10066,2026-04-05,East,Sara Dahl,Electronics,Tablet,Small Business,Credit Card,4,392.9,0.0,1571.6,202.79,5,No
+ORD-10243,2026-04-06,East,Chen Wei,Software,Antivirus License,Corporate,Bank Transfer,38,40.75,5.0,1471.07,848.59,5,No
+ORD-10152,2026-04-09,South,Luis Ortega,Furniture,Standing Desk,Consumer,Credit Card,2,437.36,0.0,874.72,243.63,4,No
+ORD-10041,2026-04-11,West,Mike Turner,Office Supplies,Printer Paper,Consumer,Credit Card,15,25.34,0.0,380.1,148.58,4,No
+ORD-10350,2026-04-11,North,Tom Becker,Office Supplies,Printer Paper,Small Business,PayPal,28,25.45,15.0,605.71,179.54,4,No
+ORD-10393,2026-04-12,West,Mike Turner,Electronics,Laptop,Corporate,Bank Transfer,2,956.61,0.0,1913.22,323.45,6,No
+ORD-10389,2026-04-12,South,Priya Menon,Furniture,Standing Desk,Corporate,Credit Card,5,470.42,0.0,2352.1,623.78,1,No
+ORD-10256,2026-04-12,West,Mike Turner,Office Supplies,Notebook Pack,Consumer,Cash on Delivery,30,12.72,0.0,381.6,141.16,7,No
+ORD-10272,2026-04-13,West,Zoe Adams,Furniture,Office Chair,Small Business,Bank Transfer,3,172.22,25.0,387.5,11.48,4,No
+ORD-10347,2026-04-15,West,Mike Turner,Office Supplies,Stapler,Consumer,Bank Transfer,2,14.76,0.0,29.52,10.97,3,No
+ORD-10400,2026-04-15,West,Zoe Adams,Electronics,Tablet,Small Business,Credit Card,4,397.45,0.0,1589.8,208.05,6,Yes
+ORD-10404,2026-04-17,North,Amira Hassan,Furniture,Standing Desk,Corporate,Credit Card,4,444.34,20.0,1421.89,200.81,4,No
+ORD-10196,2026-04-18,East,Chen Wei,Office Supplies,Printer Paper,Small Business,PayPal,29,24.79,0.0,718.91,298.06,5,No
+ORD-10049,2026-04-18,West,Mike Turner,Furniture,Standing Desk,Consumer,Bank Transfer,3,471.71,0.0,1415.13,449.45,6,No
+ORD-10070,2026-04-19,West,Mike Turner,Furniture,Bookshelf,Small Business,Credit Card,3,124.07,0.0,372.21,123.14,5,No
+ORD-10073,2026-04-21,South,Luis Ortega,Office Supplies,Printer Paper,Consumer,Cash on Delivery,21,25.86,25.0,407.29,96.63,3,No
+ORD-10210,2026-04-21,West,Zoe Adams,Furniture,Bookshelf,Small Business,PayPal,2,132.38,0.0,264.76,78.85,3,No
+ORD-10218,2026-04-21,South,Luis Ortega,Electronics,Headphones,Consumer,PayPal,2,122.55,10.0,220.59,24.0,3,No
+ORD-10080,2026-04-22,North,Tom Becker,Office Supplies,Printer Paper,Corporate,Cash on Delivery,10,24.22,30.0,169.54,25.07,4,No
+ORD-10402,2026-04-23,West,Mike Turner,Furniture,Office Chair,Corporate,,4,183.86,,661.9,163.0,,No
+ORD-10213,2026-04-24,North,Amira Hassan,Software,Design Suite,Small Business,Cash on Delivery,12,292.44,0.0,3509.28,2375.5,4,No
+ORD-10303,2026-04-27,East,Sara Dahl,Office Supplies,Pen Set,Corporate,Credit Card,17,9.36,0.0,159.12,61.43,2,No
+ORD-10398,2026-04-28,South,Priya Menon,Furniture,Office Chair,Corporate,PayPal,2,185.86,0.0,371.72,121.88,5,No
+ORD-10161,2026-04-28,West,Zoe Adams,Electronics,Smartphone,Small Business,Credit Card,3,638.48,0.0,1915.44,340.7,7,No
+ORD-10116,2026-04-28,East,Chen Wei,Software,Design Suite,Corporate,PayPal,41,315.35,25.0,9697.01,5080.76,3,No
+ORD-10118,2026-04-29,East,Sara Dahl,Electronics,Headphones,Consumer,Credit Card,3,120.12,0.0,360.36,52.1,5,Yes
+ORD-10060,2026-04-29,East,Sara Dahl,Electronics,Headphones,Small Business,PayPal,4,121.77,0.0,487.08,69.91,6,No
+ORD-10238,2026-05-01,West,Mike Turner,Office Supplies,Pen Set,Small Business,Credit Card,13,9.46,10.0,110.68,40.46,4,No
+ORD-10032,2026-05-02,West,Zoe Adams,Office Supplies,Notebook Pack,Consumer,PayPal,4,12.22,0.0,48.88,19.07,6,No
+ORD-10140,2026-05-02,East,Sara Dahl,Software,Accounting Tool,Corporate,Credit Card,4,198.68,15.0,675.51,402.9,2,No
+ORD-10078,2026-05-02,West,Zoe Adams,Office Supplies,Pen Set,Consumer,Cash on Delivery,28,9.03,15.0,214.91,57.87,4,No
+ORD-10390,2026-05-02,North,Amira Hassan,Electronics,Smartphone,Small Business,Credit Card,1,663.36,0.0,663.36,102.69,4,No
+ORD-10119,2026-05-03,West,Zoe Adams,Office Supplies,Notebook Pack,Small Business,Cash on Delivery,13,11.75,30.0,106.92,23.57,5,No
+ORD-10006,2026-05-04,North,Amira Hassan,Office Supplies,Pen Set,Corporate,Credit Card,31,8.95,25.0,208.09,36.25,3,No
+ORD-10360,2026-05-04,North,Tom Becker,Software,Accounting Tool,Small Business,PayPal,19,206.99,0.0,3932.81,2468.99,4,No
+ORD-10135,2026-05-04,East,Sara Dahl,Furniture,Office Chair,Small Business,Credit Card,2,186.91,25.0,280.37,8.67,2,No
+ORD-10414,2026-05-07,East,Chen Wei,Electronics,Headphones,Corporate,PayPal,2,115.61,20.0,184.98,-19.69,4,Yes
+ORD-10295,2026-05-07,West,Mike Turner,Furniture,Bookshelf,Consumer,Bank Transfer,4,123.78,20.0,396.1,37.33,6,No
+ORD-10391,2026-05-08,West,Mike Turner,Office Supplies,Pen Set,Small Business,Cash on Delivery,20,8.67,0.0,173.4,69.22,9,No
+ORD-10340,2026-05-09,East,Chen Wei,Office Supplies,Printer Paper,Small Business,Credit Card,10,25.99,20.0,207.92,45.34,5,Yes
+ORD-10028,2026-05-09,West,Zoe Adams,Furniture,Office Chair,Consumer,Credit Card,3,179.34,0.0,538.02,149.59,7,No
+ORD-10092,2026-05-10,East,Sara Dahl,Software,Antivirus License,Small Business,PayPal,21,40.54,0.0,851.34,541.83,4,No
+ORD-10113,2026-05-12,East,Sara Dahl,Office Supplies,Printer Paper,Small Business,Cash on Delivery,13,24.59,0.0,319.67,118.86,1,No
+ORD-10012,2026-05-14,North,Tom Becker,Office Supplies,Notebook Pack,Consumer,Credit Card,18,11.4,0.0,205.2,87.45,3,No
+ORD-10265,2026-05-15,South,Luis Ortega,Office Supplies,Pen Set,Corporate,Bank Transfer,32,9.68,10.0,278.78,95.04,5,No
+ORD-10158,2026-05-15,North,Tom Becker,Electronics,Tablet,Corporate,Bank Transfer,4,382.11,10.0,1375.6,107.26,,No
+ORD-10162,2026-05-17,West,Mike Turner,Electronics,Headphones,Corporate,Cash on Delivery,7,126.74,0.0,887.18,146.78,6,No
+ORD-10415,2026-05-18,East,Chen Wei,Electronics,Smartphone,Small Business,Cash on Delivery,3,635.63,10.0,1716.2,90.77,3,No
+ORD-10301,2026-05-18,South,Luis Ortega,Office Supplies,Stapler,Corporate,PayPal,25,14.32,0.0,358.0,166.68,4,No
+ORD-10009,2026-05-18,South,Priya Menon,Software,Design Suite,Corporate,Cash on Delivery,35,318.7,20.0,8923.6,5477.81,3,No
+ORD-10094,2026-05-19,North,Amira Hassan,Software,Design Suite,Corporate,PayPal,2,300.68,0.0,601.36,381.4,2,No
+ORD-10188,2026-05-19,East,Chen Wei,Electronics,Tablet,Consumer,Credit Card,4,410.3,0.0,1641.2,219.69,3,Yes
+ORD-10351,2026-05-24,West,Mike Turner,Electronics,Tablet,Consumer,Credit Card,2,412.81,10.0,743.06,47.94,4,No
+ORD-10283,2026-05-25,North,Amira Hassan,Office Supplies,Notebook Pack,Small Business,PayPal,5,12.04,20.0,48.16,11.05,3,No
+ORD-10008,2026-05-25,South,Luis Ortega,Office Supplies,Printer Paper,Consumer,Cash on Delivery,24,26.25,5.0,598.5,209.75,6,No
+ORD-10325,2026-05-25,East,Chen Wei,Electronics,Headphones,Corporate,Bank Transfer,2,128.13,0.0,256.26,34.89,3,No
+ORD-10020,2026-05-27,West,Mike Turner,Office Supplies,Stapler,Corporate,Credit Card,8,15.53,30.0,86.97,10.83,5,No
+ORD-10276,2026-05-27,North,Amira Hassan,Software,Design Suite,Corporate,Credit Card,35,293.73,25.0,7710.41,4065.48,3,No
+ORD-10192,2026-05-28,South,Luis Ortega,Furniture,Standing Desk,Corporate,PayPal,4,466.36,5.0,1772.17,502.49,3,No
+ORD-10395,2026-05-28,North,Amira Hassan,Office Supplies,Printer Paper,Consumer,Bank Transfer,18,26.18,10.0,424.12,143.34,6,No
+ORD-10315,2026-05-28,North,Amira Hassan,Furniture,Standing Desk,Small Business,PayPal,2,483.94,5.0,919.49,208.34,3,No
+ORD-10348,2026-05-30,East,Chen Wei,Electronics,Tablet,Consumer,Cash on Delivery,4,384.87,25.0,1154.61,-102.01,2,No
+ORD-10306,2026-05-30,South,Luis Ortega,Software,Accounting Tool,Corporate,Bank Transfer,32,201.71,0.0,6454.72,4285.95,2,No
+ORD-10322,2026-05-30,East,Chen Wei,Software,Design Suite,Consumer,Cash on Delivery,28,303.57,0.0,8499.96,5270.31,3,No
+ORD-10259,2026-05-31,West,Zoe Adams,Office Supplies,Stapler,Consumer,Bank Transfer,3,15.36,30.0,32.26,3.79,6,No
+ORD-10126,2026-05-31,East,Chen Wei,Office Supplies,Printer Paper,Consumer,Credit Card,16,26.03,0.0,416.48,139.8,3,No
+ORD-10085,2026-05-31,South,Luis Ortega,Electronics,Tablet,Corporate,PayPal,2,399.0,0.0,798.0,159.67,3,No
+ORD-10007,2026-05-31,East,Chen Wei,Electronics,Smartphone,Small Business,PayPal,4,672.18,10.0,2419.85,97.32,1,Yes
+ORD-10352,2026-06-01,East,Chen Wei,Office Supplies,Notebook Pack,Small Business,Cash on Delivery,24,12.4,0.0,297.6,107.16,3,No
+ORD-10038,2026-06-01,South,Luis Ortega,Electronics,Laptop,Consumer,PayPal,2,865.63,20.0,1385.01,-20.08,3,No
+ORD-10194,2026-06-01,East,Chen Wei,Software,Accounting Tool,Small Business,Bank Transfer,9,193.4,25.0,1305.45,641.73,3,No
+ORD-10132,2026-06-01,East,Chen Wei,Office Supplies,Stapler,Small Business,Cash on Delivery,22,15.45,0.0,339.9,129.58,6,No
+ORD-10097,2026-06-02,East,Chen Wei,Furniture,Standing Desk,Corporate,PayPal,2,471.09,25.0,706.63,47.58,8,No
+ORD-10318,2026-06-02,East,Sara Dahl,Furniture,Bookshelf,Small Business,Cash on Delivery,4,138.38,5.0,525.84,117.87,4,No
+ORD-10401,2026-06-02,South,Priya Menon,Software,Accounting Tool,Small Business,PayPal,21,197.75,0.0,4152.75,2788.71,3,No
+ORD-10291,2026-06-03,North,Tom Becker,Software,Accounting Tool,Consumer,Credit Card,28,206.55,0.0,5783.4,3874.25,1,No
+ORD-10403,2026-06-03,East,Sara Dahl,Furniture,Office Chair,Small Business,PayPal,3,179.19,25.0,403.18,16.91,4,Yes
+ORD-10399,2026-06-03,West,Zoe Adams,Office Supplies,Pen Set,Consumer,Credit Card,16,9.1,30.0,101.92,14.36,6,No
+ORD-10355,2026-06-05,North,Tom Becker,Furniture,Bookshelf,Consumer,Cash on Delivery,2,131.82,5.0,250.46,67.69,3,No
+ORD-10047,2026-06-06,South,Luis Ortega,Electronics,Tablet,Corporate,Credit Card,5,415.44,0.0,2077.2,392.01,4,No
+ORD-10139,2026-06-07,East,Sara Dahl,Furniture,Bookshelf,Corporate,Bank Transfer,4,135.8,0.0,543.2,151.97,3,No
+ORD-10268,2026-06-09,North,Amira Hassan,Office Supplies,Printer Paper,Consumer,Cash on Delivery,30,25.06,10.0,676.62,201.25,3,No
+ORD-10382,2026-06-09,North,Tom Becker,Office Supplies,Notebook Pack,Corporate,PayPal,41,11.8,0.0,483.8,206.75,3,No
+ORD-10371,2026-06-09,North,Amira Hassan,Office Supplies,Stapler,Small Business,Cash on Delivery,1,15.0,5.0,14.25,5.21,4,No
+ORD-10146,2026-06-10,South,Luis Ortega,Furniture,Standing Desk,Consumer,Credit Card,3,473.56,0.0,1420.68,437.82,5,No
+ORD-10130,2026-06-10,South,Priya Menon,Software,Design Suite,Small Business,PayPal,16,323.02,0.0,5168.32,3371.75,5,No
+ORD-10069,2026-06-12,North,Tom Becker,Software,Antivirus License,Corporate,Credit Card,43,41.16,15.0,1504.4,824.86,4,No
+ORD-10285,2026-06-12,South,Luis Ortega,Furniture,Office Chair,Small Business,PayPal,1,174.84,30.0,122.39,3.48,7,No
+ORD-10310,2026-06-13,West,Zoe Adams,Software,Accounting Tool,Small Business,PayPal,24,212.66,30.0,3572.69,1559.88,7,Yes
+ORD-10016,2026-06-15,South,Luis Ortega,Office Supplies,Printer Paper,Corporate,,37,26.37,,926.91,366.75,,No
+ORD-10220,2026-06-15,East,Chen Wei,Office Supplies,Notebook Pack,Small Business,Cash on Delivery,13,12.12,30.0,110.29,15.5,7,No
+ORD-10088,2026-06-15,West,Zoe Adams,Electronics,Smartphone,Consumer,Bank Transfer,3,669.54,15.0,1707.33,60.77,6,No
+ORD-10099,2026-06-17,North,Tom Becker,Software,Accounting Tool,Consumer,Bank Transfer,24,195.27,15.0,3983.51,2376.42,5,No
+ORD-10183,2026-06-18,West,Zoe Adams,Office Supplies,Pen Set,Consumer,Credit Card,17,9.5,5.0,153.42,54.12,6,No
+ORD-10086,2026-06-19,North,Tom Becker,Office Supplies,Printer Paper,Consumer,Cash on Delivery,20,23.83,0.0,476.6,199.98,7,No
+ORD-10195,2026-06-19,North,Amira Hassan,Office Supplies,Notebook Pack,Corporate,Bank Transfer,37,12.25,20.0,362.6,104.84,4,No
+ORD-10171,2026-06-19,North,Tom Becker,Software,Accounting Tool,Consumer,Cash on Delivery,24,197.5,0.0,4740.0,3076.3,2,No
+ORD-10151,2026-06-20,East,Sara Dahl,Electronics,Headphones,Consumer,Credit Card,2,118.96,10.0,214.13,6.34,3,No
+ORD-10040,2026-06-20,East,Chen Wei,Software,Accounting Tool,Consumer,PayPal,27,204.78,5.0,5252.61,3262.4,4,No
+ORD-10029,2026-06-22,East,Chen Wei,Electronics,Headphones,Consumer,Bank Transfer,1,129.16,10.0,116.24,5.02,7,Yes
+ORD-10186,2026-06-23,West,Mike Turner,Electronics,Laptop,Small Business,Credit Card,4,874.95,25.0,2624.85,-383.52,4,No
+ORD-10375,2026-06-25,East,Chen Wei,Office Supplies,Pen Set,Consumer,Bank Transfer,11,8.65,30.0,66.61,7.18,4,No
+ORD-10263,2026-06-25,South,Priya Menon,Electronics,Headphones,Corporate,PayPal,2,114.01,0.0,228.02,44.87,,No
+ORD-10093,2026-06-25,South,Luis Ortega,Furniture,Standing Desk,Consumer,Bank Transfer,3,461.96,25.0,1039.41,102.02,4,No
+ORD-10145,2026-06-25,South,Luis Ortega,Electronics,Headphones,Small Business,Bank Transfer,3,115.44,15.0,294.37,13.46,3,No
+ORD-10168,2026-06-29,North,Tom Becker,Furniture,Bookshelf,Consumer,Cash on Delivery,2,134.81,20.0,215.7,36.13,3,No
+ORD-10033,2026-06-29,West,Zoe Adams,Furniture,Bookshelf,Corporate,Bank Transfer,2,126.51,10.0,227.72,48.94,6,No
+ORD-10307,2026-07-02,East,Sara Dahl,Office Supplies,Pen Set,Small Business,Credit Card,30,9.01,20.0,216.24,42.73,3,No
+ORD-10090,2026-07-02,East,Sara Dahl,Office Supplies,Pen Set,Corporate,Cash on Delivery,29,8.86,0.0,256.94,90.59,5,No
+ORD-10271,2026-07-03,South,Priya Menon,Electronics,Tablet,Corporate,PayPal,7,393.26,30.0,1926.97,-197.4,2,No
+ORD-10417,2026-07-04,East,Chen Wei,Furniture,Standing Desk,Corporate,Credit Card,2,477.69,25.0,716.53,11.06,4,No
+ORD-10015,2026-07-06,West,Zoe Adams,Software,Antivirus License,Corporate,Bank Transfer,26,41.62,15.0,919.8,552.49,5,No
+ORD-10209,2026-07-06,South,Priya Menon,Software,Accounting Tool,Small Business,Credit Card,30,197.44,10.0,5330.88,3294.92,3,Yes
+ORD-10387,2026-07-08,West,Zoe Adams,Office Supplies,Stapler,Consumer,Credit Card,24,15.78,15.0,321.91,89.56,6,No
+ORD-10125,2026-07-08,West,Zoe Adams,Electronics,Headphones,Small Business,,4,122.28,,489.12,74.91,,No
+ORD-10241,2026-07-09,West,Zoe Adams,Office Supplies,Pen Set,Corporate,PayPal,8,9.16,10.0,65.95,23.0,6,No
+ORD-10096,2026-07-10,East,Chen Wei,Electronics,Headphones,Small Business,Credit Card,4,122.08,0.0,488.32,67.21,3,No
+ORD-10208,2026-07-13,North,Amira Hassan,Office Supplies,Stapler,Small Business,Cash on Delivery,11,14.41,10.0,142.66,50.4,5,No
+ORD-10361,2026-07-13,North,Amira Hassan,Office Supplies,Pen Set,Consumer,PayPal,28,9.22,10.0,232.34,74.14,2,No
+ORD-10167,2026-07-16,West,Zoe Adams,Office Supplies,Notebook Pack,Consumer,Credit Card,22,11.91,15.0,222.72,63.21,7,No
+ORD-10239,2026-07-16,East,Sara Dahl,Electronics,Smartphone,Consumer,Credit Card,2,630.74,5.0,1198.41,146.6,6,No
+ORD-10215,2026-07-16,East,Chen Wei,Office Supplies,Pen Set,Corporate,Credit Card,28,9.15,0.0,256.2,108.82,3,No
+ORD-10123,2026-07-17,West,Mike Turner,Office Supplies,Pen Set,Consumer,PayPal,22,9.29,0.0,204.38,80.34,6,No
+ORD-10137,2026-07-19,North,Amira Hassan,Software,Design Suite,Small Business,Cash on Delivery,23,315.19,0.0,7249.37,4704.36,3,No
+ORD-10172,2026-07-19,North,Tom Becker,Electronics,Smartphone,Small Business,Bank Transfer,3,656.44,25.0,1476.99,-171.17,4,No
+ORD-10326,2026-07-20,East,Sara Dahl,Office Supplies,Notebook Pack,Consumer,Cash on Delivery,13,12.74,5.0,157.34,52.94,2,No
+ORD-10294,2026-07-22,West,Mike Turner,Furniture,Standing Desk,Small Business,PayPal,3,473.93,20.0,1137.43,117.41,6,No
+ORD-10316,2026-07-23,East,Chen Wei,Electronics,Headphones,Small Business,PayPal,3,114.44,20.0,274.66,-30.94,6,No
+ORD-10288,2026-07-24,North,Amira Hassan,Office Supplies,Notebook Pack,Consumer,,20,12.68,,215.56,64.86,,No
+ORD-10095,2026-07-24,East,Sara Dahl,Electronics,Laptop,Small Business,Credit Card,1,860.15,20.0,688.12,-43.42,4,Yes
+ORD-10201,2026-07-27,East,Chen Wei,Software,Accounting Tool,Corporate,Cash on Delivery,11,192.89,15.0,1803.52,1029.04,3,No
+ORD-10317,2026-07-27,North,Tom Becker,Office Supplies,Stapler,Consumer,PayPal,26,14.69,15.0,324.65,102.11,3,Yes
+ORD-10190,2026-07-27,North,Tom Becker,Furniture,Bookshelf,Consumer,Credit Card,1,131.69,0.0,131.69,40.75,5,No
+ORD-10101,2026-07-27,North,Amira Hassan,Electronics,Laptop,Small Business,Credit Card,2,868.09,15.0,1475.75,105.48,3,Yes
+ORD-10189,2026-07-28,West,Zoe Adams,Electronics,Tablet,Small Business,Cash on Delivery,3,395.79,25.0,890.53,-88.66,5,No
+ORD-10372,2026-07-28,North,Tom Becker,Office Supplies,Printer Paper,Small Business,Bank Transfer,16,25.77,20.0,329.86,85.95,4,Yes
+ORD-10302,2026-07-28,West,Mike Turner,Software,Antivirus License,Small Business,Cash on Delivery,9,41.89,5.0,358.16,221.84,7,No
+ORD-10114,2026-07-28,East,Sara Dahl,Software,Accounting Tool,Small Business,Cash on Delivery,23,208.78,5.0,4561.84,2750.3,2,No
+ORD-10068,2026-08-01,West,Mike Turner,Electronics,Headphones,Small Business,Cash on Delivery,4,115.67,20.0,370.14,-9.78,2,Yes
+ORD-10334,2026-08-03,North,Tom Becker,Office Supplies,Stapler,Small Business,Credit Card,21,16.05,5.0,320.2,127.44,2,No
+ORD-10141,2026-08-04,West,Zoe Adams,Software,Antivirus License,Small Business,Credit Card,13,39.96,5.0,493.51,312.01,4,No
+ORD-10418,2026-08-04,East,Chen Wei,Office Supplies,Pen Set,Small Business,Bank Transfer,6,9.53,0.0,57.18,20.22,2,No
+ORD-10229,2026-08-08,North,Amira Hassan,Office Supplies,Printer Paper,Corporate,Bank Transfer,5,24.64,30.0,86.24,14.63,3,No
+ORD-10025,2026-08-10,West,Mike Turner,Office Supplies,Stapler,Corporate,PayPal,26,15.24,5.0,376.43,130.1,3,No
+ORD-10412,2026-08-11,North,Tom Becker,Electronics,Headphones,Small Business,PayPal,1,126.36,15.0,107.41,2.03,6,No
+ORD-10013,2026-08-11,South,Priya Menon,Software,Accounting Tool,Consumer,Cash on Delivery,4,199.47,25.0,598.41,345.7,3,No
+ORD-10091,2026-08-12,East,Chen Wei,Furniture,Bookshelf,Small Business,PayPal,3,127.79,0.0,383.37,103.42,2,No
+ORD-10202,2026-08-12,West,Zoe Adams,Office Supplies,Pen Set,Corporate,Cash on Delivery,23,9.66,15.0,188.85,50.97,3,No
+ORD-10004,2026-08-13,North,Tom Becker,Office Supplies,Stapler,Corporate,Bank Transfer,19,15.39,10.0,263.17,87.76,4,Yes
+ORD-10242,2026-08-18,North,Amira Hassan,Software,Accounting Tool,Consumer,PayPal,18,193.49,30.0,2437.97,1252.71,6,No
+ORD-10176,2026-08-19,East,Chen Wei,Furniture,Office Chair,Small Business,Bank Transfer,1,171.1,25.0,128.32,-5.19,6,No
+ORD-10109,2026-08-19,North,Tom Becker,Electronics,Laptop,Corporate,Bank Transfer,4,895.77,25.0,2687.31,-312.7,1,No
+ORD-10100,2026-08-19,West,Zoe Adams,Office Supplies,Notebook Pack,Corporate,Bank Transfer,37,12.74,5.0,447.81,153.5,5,No
+ORD-10184,2026-08-20,East,Chen Wei,Office Supplies,Notebook Pack,Corporate,Credit Card,35,12.63,30.0,309.44,40.38,4,No
+ORD-10300,2026-08-20,East,Chen Wei,Software,Design Suite,Small Business,Credit Card,1,304.24,0.0,304.24,202.21,1,No
+ORD-10217,2026-08-21,North,Amira Hassan,Electronics,Tablet,Consumer,Bank Transfer,3,415.95,30.0,873.49,-172.38,3,No
+ORD-10373,2026-08-21,East,Sara Dahl,Office Supplies,Pen Set,Consumer,Cash on Delivery,8,9.4,0.0,75.2,28.37,5,No
+ORD-10131,2026-08-22,North,Amira Hassan,Furniture,Bookshelf,Small Business,Bank Transfer,1,138.47,20.0,110.78,13.75,4,No
+ORD-10392,2026-08-23,East,Sara Dahl,Electronics,Smartphone,Small Business,Bank Transfer,2,701.29,25.0,1051.93,-179.05,3,No
+ORD-10149,2026-08-24,South,Luis Ortega,Office Supplies,Notebook Pack,Small Business,Cash on Delivery,8,11.8,0.0,94.4,42.23,3,No
+ORD-10293,2026-08-24,West,Zoe Adams,Office Supplies,Notebook Pack,Corporate,Bank Transfer,38,11.51,5.0,415.51,149.94,7,No
+ORD-10267,2026-08-26,West,Mike Turner,Electronics,Tablet,Small Business,Credit Card,4,428.62,20.0,1371.58,-33.68,5,No
+ORD-10365,2026-08-27,North,Tom Becker,Software,Accounting Tool,Corporate,Credit Card,35,204.12,20.0,5715.36,3112.01,6,No
+ORD-10211,2026-08-28,West,Zoe Adams,Electronics,Headphones,Corporate,Cash on Delivery,5,122.6,5.0,582.35,77.74,6,No
+ORD-10328,2026-08-28,North,Amira Hassan,Software,Antivirus License,Consumer,Bank Transfer,15,42.17,0.0,632.55,386.58,6,No
+ORD-10076,2026-08-30,West,Mike Turner,Software,Design Suite,Consumer,Cash on Delivery,20,311.45,10.0,5606.1,3421.61,6,No
+ORD-10345,2026-08-30,North,Amira Hassan,Electronics,Smartphone,Consumer,PayPal,3,618.75,15.0,1577.81,33.37,3,No
+ORD-10129,2026-09-03,South,Priya Menon,Office Supplies,Printer Paper,Corporate,PayPal,22,24.67,10.0,488.47,153.79,3,No
+ORD-10331,2026-09-04,East,Sara Dahl,Office Supplies,Notebook Pack,Consumer,Cash on Delivery,1,12.27,0.0,12.27,4.81,1,No
+ORD-10379,2026-09-04,West,Zoe Adams,Office Supplies,Printer Paper,Consumer,Bank Transfer,23,25.03,0.0,575.69,249.93,6,No
+ORD-10198,2026-09-05,East,Sara Dahl,Electronics,Tablet,Corporate,Bank Transfer,5,392.92,0.0,1964.6,292.74,,No
+ORD-10278,2026-09-06,West,Zoe Adams,Software,Design Suite,Small Business,Bank Transfer,10,299.82,5.0,2848.29,1731.48,4,No
+ORD-10185,2026-09-08,North,Amira Hassan,Office Supplies,Pen Set,Small Business,Credit Card,17,9.57,0.0,162.69,62.09,3,No
+ORD-10377,2026-09-08,East,Sara Dahl,Furniture,Standing Desk,Corporate,PayPal,5,482.38,30.0,1688.33,-176.72,5,No
+ORD-10233,2026-09-09,East,Sara Dahl,Furniture,Standing Desk,Small Business,PayPal,1,481.87,0.0,481.87,127.49,5,No
+ORD-10408,2026-09-10,West,Mike Turner,Furniture,Standing Desk,Corporate,Bank Transfer,5,446.53,25.0,1674.49,101.76,10,Yes
+ORD-10224,2026-09-11,North,Tom Becker,Electronics,Tablet,Small Business,Credit Card,4,381.11,0.0,1524.44,283.43,2,No
+ORD-10203,2026-09-12,East,Sara Dahl,Office Supplies,Printer Paper,Consumer,Bank Transfer,2,25.34,30.0,35.48,3.68,5,No
+ORD-10299,2026-09-12,North,Tom Becker,Electronics,Smartphone,Consumer,PayPal,3,673.8,25.0,1516.05,-144.97,5,No
+ORD-10385,2026-09-12,South,Luis Ortega,Office Supplies,Notebook Pack,Small Business,PayPal,6,12.95,0.0,77.7,32.99,2,No
+ORD-10290,2026-09-13,North,Tom Becker,Office Supplies,Printer Paper,Consumer,Credit Card,22,24.39,15.0,456.09,133.11,3,No
+ORD-10312,2026-09-13,West,Mike Turner,Electronics,Headphones,Corporate,Cash on Delivery,2,121.81,20.0,194.9,-5.94,5,No
+ORD-10187,2026-09-16,West,Zoe Adams,Electronics,Headphones,Consumer,Credit Card,1,119.52,10.0,107.57,4.85,3,No
+ORD-10252,2026-09-16,East,Chen Wei,Office Supplies,Stapler,Consumer,Bank Transfer,12,16.12,5.0,183.77,68.99,1,No
+ORD-10110,2026-09-18,West,Mike Turner,Electronics,Tablet,Small Business,Bank Transfer,2,413.42,30.0,578.79,-104.19,7,No
+ORD-10254,2026-09-18,North,Tom Becker,Office Supplies,Pen Set,Small Business,Cash on Delivery,23,9.36,10.0,193.75,61.54,4,No
+ORD-10102,2026-09-20,East,Chen Wei,Office Supplies,Notebook Pack,Small Business,Credit Card,25,11.5,15.0,244.38,68.97,7,No
+ORD-10416,2026-09-20,West,Zoe Adams,Office Supplies,Pen Set,Small Business,PayPal,16,9.02,0.0,144.32,61.71,6,No
+ORD-10262,2026-09-21,North,Tom Becker,Office Supplies,Printer Paper,Consumer,Bank Transfer,1,26.22,0.0,26.22,10.06,5,No
+ORD-10251,2026-09-23,North,Amira Hassan,Electronics,Smartphone,Consumer,Credit Card,1,622.96,25.0,467.22,-28.65,3,Yes
+ORD-10164,2026-09-23,East,Sara Dahl,Electronics,Tablet,Small Business,Bank Transfer,4,407.19,0.0,1628.76,227.43,4,Yes
+ORD-10380,2026-09-24,North,Amira Hassan,Software,Accounting Tool,Consumer,PayPal,8,211.66,0.0,1693.28,1054.09,5,No
+ORD-10232,2026-09-26,South,Priya Menon,Software,Design Suite,Consumer,Bank Transfer,26,304.65,5.0,7524.85,4929.35,3,Yes
+ORD-10332,2026-09-28,East,Chen Wei,Office Supplies,Notebook Pack,Consumer,Bank Transfer,18,12.36,30.0,155.74,15.35,4,No
+ORD-10364,2026-09-28,South,Priya Menon,Office Supplies,Printer Paper,Small Business,Cash on Delivery,7,26.99,10.0,170.04,63.63,5,No
+ORD-10274,2026-09-29,North,Tom Becker,Furniture,Bookshelf,Consumer,Credit Card,1,131.02,0.0,131.02,35.88,4,No
+ORD-10309,2026-09-30,North,Tom Becker,Electronics,Headphones,Small Business,PayPal,1,129.09,20.0,103.27,-7.42,6,No
+ORD-10103,2026-09-30,West,Mike Turner,Electronics,Headphones,Consumer,Bank Transfer,1,115.75,10.0,104.17,6.63,6,No

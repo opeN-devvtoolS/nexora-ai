@@ -1,0 +1,50 @@
+[
+  {
+    "product": "Laptop",
+    "category": "Electronics",
+    "warranty_months": 24,
+    "supplier": "TechSource Ltd",
+    "reorder_level": 15,
+    "notes": "Best seller in Corporate segment. Premium model has a 3 year option."
+  },
+  {
+    "product": "Headphones",
+    "category": "Electronics",
+    "warranty_months": 12,
+    "supplier": "SoundWave Inc",
+    "reorder_level": 40,
+    "notes": "High return rate when delivery is late."
+  },
+  {
+    "product": "Smartphone",
+    "category": "Electronics",
+    "warranty_months": 12,
+    "supplier": "TechSource Ltd",
+    "reorder_level": 20,
+    "notes": "Launch of new model planned for next quarter."
+  },
+  {
+    "product": "Tablet",
+    "category": "Electronics",
+    "warranty_months": 12,
+    "supplier": "TechSource Ltd",
+    "reorder_level": 15,
+    "notes": "Popular with Consumer segment."
+  },
+  {
+    "product": "Standing Desk",
+    "category": "Furniture",
+    "warranty_months": 60,
+    "supplier": "ErgoWorks",
+    "reorder_level": 10,
+    "notes": "Assembly guide included. Ships in two boxes."
+  },
+  {
+    "product": "Design Suite",
+    "category": "Software",
+    "warranty_months": 0,
+    "supplier": "Internal",
+    "reorder_level": 0,
+    "notes": "Annual subscription. Highest profit margin product."
+  }
+]

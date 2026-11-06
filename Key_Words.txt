@@ -1,0 +1,9 @@
+Import		     |	Purpose                                                   |
+---------------------|------------------------------------------------------------|
+SimpleImputer	     |	Handles missing values					  |
+OneHotEncoder	     |	Converts categories into numbers			  |
+StandardScaler	     |	Scales numerical features				  |
+ColumnTransformer    |	Applies different operations to different columns         |
+Pipeline	     |	Combines preprocessing steps                              |
+train_test_split     |	Splits training and testing data                          |
+-----------------------------------------------------------------------------------

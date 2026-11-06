@@ -1,0 +1,5 @@
+{
+  "passing_mark": "A student passes with a score of 50 or more and attendance of at least 75 percent.",
+  "late_homework": "Homework handed in late loses 10 percent of its marks per day, up to 3 days.",
+  "exam_retake": "Students who fail may retake the exam once, within 14 days of the results."
+}
