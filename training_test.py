@@ -1,7 +1,9 @@
-import pandas as pd
 
+import pandas as pd
+from ml.model_persistence import save_model, load_model
 from ml.preprocessing import prepare_data
 from ml.training import train_models
+from ml.evaluation import evaluate_models
 
 
 df = pd.read_csv("workspace/input/students.csv")
@@ -23,12 +25,46 @@ trained_models = train_models(
     y_train
 )
 
-print("Training completed!")
+results, predictions = evaluate_models(
+    problem_type,
+    trained_models,
+    X_test,
+    y_test
+)
 
-print("Training data shape:", X_train.shape)
-print("Testing data shape:", X_test.shape)
+print("\nModel Evaluation Results")
 
-print("\nTrained models:")
+for name, metrics in results.items():
 
-for name in trained_models:
-    print(name)
+    print(f"\nModel: {name}")
+
+    for metric, value in metrics.items():
+        print(f"{metric}: {value}")
+
+print("\nActual values:")
+print(y_test.to_list())
+
+for name, prediction in predictions.items():
+    print(f"\n{name} predictions:")
+    print(prediction)
+
+
+print("\nSaving trained models...")
+
+for name, model in trained_models.items():
+
+    file_path = save_model(model,preprocessor,name,problem_type)
+
+    print(f"Saved: {file_path}")
+
+
+print("\nLoading Random Forest model...")
+
+loaded_data = load_model(
+    "workspace/output/models/random_forest.joblib"
+)
+
+loaded_model = loaded_data["model"]
+
+print("Loaded model:", loaded_data["model_name"])
+print("Problem type:", loaded_data["problem_type"])
