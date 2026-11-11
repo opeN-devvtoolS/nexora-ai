@@ -6,14 +6,31 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
 
-def prepare_data(df, target_column, problem_type):
+def prepare_data(df, target_column, problem_type,feature_columns = None):
 
     if target_column not in df.columns:
         raise ValueError("Target column not found")
 
     df = df.dropna(subset=[target_column]).copy()
 
-    X = df.drop(columns=[target_column])
+    if feature_columns is not None:
+
+        missing_columns = [
+            column for column in feature_columns
+            if column not in df.columns
+        ]
+
+        if missing_columns:
+            raise ValueError(f"Feature columns not found: {missing_columns}")
+
+        if target_column in feature_columns:
+            raise ValueError("Target column cannot be a feature")
+
+        X = df[feature_columns]
+
+    else:
+        X = df.drop(columns=[target_column])
+
     y = df[target_column]
 
     if X.empty:
