@@ -6,7 +6,7 @@ from pathlib import Path
 MODEL_DIR = Path("workspace/output/models")
 
 
-def save_model(model, preprocessor, model_name, problem_type):
+def save_model(model, preprocessor, model_name, problem_type,metadata):
 
     MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -14,7 +14,8 @@ def save_model(model, preprocessor, model_name, problem_type):
         "model": model,
         "preprocessor": preprocessor,
         "model_name": model_name,
-        "problem_type": problem_type
+        "problem_type": problem_type,
+        "metadata" : metadata
     }
 
     file_path = MODEL_DIR / f"{model_name}.joblib"

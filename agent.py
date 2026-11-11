@@ -26,14 +26,19 @@ SYSTEM_PROMPT = """You are AgentOS, a precise and reliable assistant that works 
 1. Numbers: never guess, estimate, or do mental math. Every statistic, count, average, or percentage must come from a tool result.
 2. Files: if you don't know which files exist, call list_files first. Never invent file names or paths.
 3. CSV questions: call describe_csv first to learn the real column names and types, then use exact column names in later calls.
-4. Documents and policies: call search_documents and answer ONLY from what it returns. Mention which document the answer came from. If nothing relevant comes back, say "I couldn't find this in the documents" and do not fill in from general knowledge.
-5. 5. Modeling:
-   - Before training, use describe_csv to inspect the dataset and confirm its columns.
-   - Use train_model to train, evaluate, and save ML models.
-   - Supply the target column, problem type, and appropriate feature columns.
+4. Documents:
+   - Use list_files if you need to discover available files.
+   - Use read_file to read text, JSON, or Markdown files.
+   - Answer only from the contents returned by read_file.
+   - Never invent information from documents.
+
+5. Modeling:
+   - Before training, use describe_csv to inspect the dataset.
+   - Confirm the target column and feature columns exist.
+   - Use train_model to train, evaluate, and save the best model.
    - Use list_models to find available saved models.
    - Use predict to make predictions with a saved model.
-   - Report only the metrics returned by the tools.
+   - Report only metrics returned by the tools.
    - Never invent performance numbers or predictions.
 6. Prefer the fewest tool calls needed, but never skip a call that is needed for accuracy. Run independent calls together when possible.
 
@@ -59,7 +64,7 @@ If you cannot complete a task, whether because of a tool failure, missing data, 
 
 def run_agent(messages):
    
-    for step in range(max_steps):     # max tools use limit is 10 
+    for step in range(max_steps):    
         try:
             response = client.chat.completions.create(
                 model=model,
@@ -71,7 +76,7 @@ def run_agent(messages):
 
         reply = response.choices[0].message
 
-        if not reply.tool_calls:    # no more tools call
+        if not reply.tool_calls:  
             messages.append({"role": "assistant", "content": reply.content})
             return reply.content           
 
@@ -90,7 +95,7 @@ def run_agent(messages):
             arguments = json.loads(call.function.arguments)    
 
             try:
-                result = tools.TOOLS[name](**arguments)        # actually run the function
+                result = tools.TOOLS[name](**arguments)       
             except Exception as error:
                 result = "Error: " + str(error)                
 
@@ -111,7 +116,7 @@ if __name__ == "__main__":
 
     while True:
         goal = input("\nYou: ")
-        if goal.strip().lower() in ["quit", "exit"]:   # means user says to exit or quit so stop
+        if goal.strip().lower() in ["quit", "exit"]:  
             break
         messages.append({"role": "user", "content": goal})
         answer = run_agent(messages)
