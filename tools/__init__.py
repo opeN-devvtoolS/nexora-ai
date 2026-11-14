@@ -1,15 +1,10 @@
 
 from .files import list_files, read_file
-from .csv_tools import (
-    preview_csv,
-    describe_csv,
-    filter_csv,
-    sort_csv,
-    aggregate_csv,
-    group_csv,
-    correlation_csv
-)
-from .ml import train_model, predict, list_models
+from .ml import train_model, predict, list_models,select_model
+
+
+from .csv_tools import (preview_csv,describe_csv,filter_csv,sort_csv,aggregate_csv,group_csv,correlation_csv)
+
 
 
 TOOLS = {
@@ -24,7 +19,8 @@ TOOLS = {
     "correlation_csv": correlation_csv,
     "train_model": train_model,
     "predict": predict,
-    "list_models": list_models
+    "list_models": list_models,
+    "select_model" : select_model
 }
 
 
@@ -178,5 +174,25 @@ TOOL_LIST = [
     tool(
         "list_models",
         "List all saved machine learning models."
-    )
+    ),
+
+    tool(
+    "select_model",
+    "Select the best saved model matching a dataset, problem type, and optional target column.",
+    {
+        "dataset_name": {
+            "type": "string",
+            "description": "The exact dataset filename, for example students.csv."
+        },
+        "problem_type": {
+            "type": "string",
+            "enum": ["classification", "regression"]
+        },
+        "target_column": {
+            "type": "string",
+            "description": "The target column to match."
+        }
+    },
+    ["dataset_name", "problem_type"]
+),
 ]

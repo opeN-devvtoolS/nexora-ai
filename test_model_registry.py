@@ -1,5 +1,5 @@
 
-from tools.ml import train_model, list_models, predict
+from tools.ml import train_model, list_models, predict, select_model
 
 
 # STEP 1: Train a model
@@ -36,3 +36,13 @@ prediction = predict(
 
 print("\nPREDICTION:")
 print(prediction)
+
+
+selected = select_model(
+    dataset_name="students.csv",
+    problem_type="classification",
+    target_column="passed"
+)
+
+print("\nAUTOMATIC MODEL SELECTION:")
+print(selected)

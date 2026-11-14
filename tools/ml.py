@@ -2,14 +2,15 @@
 import pandas as pd
 from pathlib import Path
 
-from ml.preprocessing import prepare_data
-from ml.training import train_models
-from ml.evaluation import evaluate_models
+from ml.preprocessing import prepare_raw_data
+from ml.training import train_models, get_models
+from ml.evaluation import evaluate_models,cross_validate_models
 from ml.model_persistence import save_model, load_model
 from ml.prediction import predict_with_saved_model
 
 
 MODEL_DIR = Path("workspace/output/models")
+
 
 
 def train_model(csv_path, target_column, problem_type, feature_columns=None):
@@ -21,13 +22,23 @@ def train_model(csv_path, target_column, problem_type, feature_columns=None):
         if feature_columns is not None
         else [column for column in df.columns if column != target_column]
     )
-
-    X_train, X_test, y_train, y_test, preprocessor = prepare_data(
+    X_train_raw, X_test_raw, y_train, y_test, preprocessor = prepare_raw_data(
         df,
         target_column,
         problem_type,
         feature_columns
     )
+
+    cv_results = cross_validate_models(
+        problem_type,
+        get_models(problem_type),
+        X_train_raw,
+        y_train,
+        preprocessor
+    )
+
+    X_train = preprocessor.fit_transform(X_train_raw)
+    X_test = preprocessor.transform(X_test_raw)
 
     trained_models = train_models(
         problem_type,
@@ -44,13 +55,13 @@ def train_model(csv_path, target_column, problem_type, feature_columns=None):
 
     if problem_type == "classification":
         best_model_name = max(
-            results,
-            key=lambda name: results[name]["f1_score"]
+            cv_results,
+            key=lambda name: cv_results[name]["f1_score_mean"]
         )
     else:
         best_model_name = min(
-            results,
-            key=lambda name: results[name]["rmse"]
+            cv_results,
+            key=lambda name: cv_results[name]["rmse_mean"]
         )
 
     best_model = trained_models[best_model_name]
@@ -66,7 +77,8 @@ def train_model(csv_path, target_column, problem_type, feature_columns=None):
         "target_column": target_column,
         "feature_columns": features_used,
         "problem_type": problem_type,
-        "metrics": results
+        "metrics": results,
+        "cross_validation": cv_results
     }
 
     model_path = save_model(
@@ -82,6 +94,7 @@ def train_model(csv_path, target_column, problem_type, feature_columns=None):
         "best_model": saved_model_name,
         "algorithm": best_model_name,
         "metrics": results,
+        "cross_validation": cv_results,
         "model_path": str(model_path)
     }
 
@@ -125,7 +138,104 @@ def list_models():
             "dataset_name": metadata.get("dataset_name", "Unknown"),
             "target_column": metadata.get("target_column", "Unknown"),
             "feature_columns": metadata.get("feature_columns", []),
-            "metrics": metadata.get("metrics", {})
+            "metrics": metadata.get("metrics", {}),
+            "cross_validation": metadata.get("cross_validation", {})
         })
 
     return models
+
+
+
+
+
+def select_model(dataset_name, problem_type, target_column=None):
+
+    available_models = list_models()
+
+    matching_models = []
+
+    for model in available_models:
+
+        if model["dataset_name"].lower() != dataset_name.lower():
+            continue
+
+        if model["problem_type"] != problem_type:
+            continue
+
+        if target_column and model["target_column"] != target_column:
+            continue
+
+        matching_models.append(model)
+
+    if not matching_models:
+        return {
+            "status": "error",
+            "message": "No matching model found."
+        }
+
+    if problem_type == "classification":
+
+        best_model = max(
+            matching_models,
+            key=lambda model: model["cross_validation"].get(
+                model["algorithm"], {}
+            ).get(
+                "f1_score_mean",
+                model["metrics"].get(model["algorithm"], {}).get("f1_score", -1)
+            )
+        )
+
+        cv_metrics = best_model["cross_validation"].get(
+            best_model["algorithm"], {}
+        )
+
+        if "f1_score_mean" in cv_metrics:
+            score_name = "f1_score_mean"
+            score = cv_metrics["f1_score_mean"]
+        else:
+            score_name = "f1_score"
+            score = best_model["metrics"].get(
+                best_model["algorithm"], {}
+            ).get("f1_score")
+
+    elif problem_type == "regression":
+
+        best_model = min(
+            matching_models,
+            key=lambda model: model["cross_validation"].get(
+                model["algorithm"], {}
+            ).get(
+                "rmse_mean",
+                model["metrics"].get(model["algorithm"], {}).get("rmse", float("inf"))
+            )
+        )
+
+        cv_metrics = best_model["cross_validation"].get(
+            best_model["algorithm"], {}
+        )
+
+        if "rmse_mean" in cv_metrics:
+            score_name = "rmse_mean"
+            score = cv_metrics["rmse_mean"]
+        else:
+            score_name = "rmse"
+            score = best_model["metrics"].get(
+                best_model["algorithm"], {}
+            ).get("rmse")
+
+    else:
+        return {
+            "status": "error",
+            "message": "Unsupported problem type."
+        }
+
+    return {
+        "status": "success",
+        "model_name": best_model["model_name"],
+        "algorithm": best_model["algorithm"],
+        "dataset_name": best_model["dataset_name"],
+        "target_column": best_model["target_column"],
+        "features": best_model["feature_columns"],
+        "selection_metric": score_name,
+        "selection_score": score
+    }

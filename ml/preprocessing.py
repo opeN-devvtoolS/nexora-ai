@@ -1,3 +1,4 @@
+
 import pandas as pd
 
 from sklearn.impute import SimpleImputer
@@ -6,10 +7,42 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
 
-def prepare_data(df, target_column, problem_type,feature_columns = None):
+
+def create_preprocessor(X):
+
+    numerical_columns = X.select_dtypes(
+        include=["number"]
+    ).columns.tolist()
+
+    categorical_columns = X.select_dtypes(
+        exclude=["number"]
+    ).columns.tolist()
+
+    numerical_pipeline = Pipeline([
+        ("imputer", SimpleImputer(strategy="median")),
+        ("scaler", StandardScaler())
+    ])
+
+    categorical_pipeline = Pipeline([
+        ("imputer", SimpleImputer(strategy="most_frequent")),
+        ("encoder", OneHotEncoder(handle_unknown="ignore"))
+    ])
+
+    preprocessor = ColumnTransformer([
+        ("numerical", numerical_pipeline, numerical_columns),
+        ("categorical", categorical_pipeline, categorical_columns)
+    ])
+
+    return preprocessor
+
+
+def prepare_raw_data(df, target_column, problem_type, feature_columns=None):
 
     if target_column not in df.columns:
         raise ValueError("Target column not found")
+
+    if problem_type not in ["classification", "regression"]:
+        raise ValueError("Invalid problem type")
 
     df = df.dropna(subset=[target_column]).copy()
 
@@ -39,37 +72,25 @@ def prepare_data(df, target_column, problem_type,feature_columns = None):
     if problem_type == "classification" and y.nunique() < 2:
         raise ValueError("Classification requires at least two target classes")
 
-    if problem_type not in ["classification", "regression"]:
-        raise ValueError("Invalid problem type")
+    preprocessor = create_preprocessor(X)
 
-    numerical_columns = X.select_dtypes(
-        include=["number"]
-    ).columns.tolist()
+    if problem_type == "classification":
+        stratify_data = y
+    else:
+        stratify_data = None
 
-    categorical_columns = X.select_dtypes(
-        exclude=["number"]
-    ).columns.tolist()
+    X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_state=42,stratify=stratify_data)
 
-    numerical_pipeline = Pipeline([
-        ("imputer", SimpleImputer(strategy="median")),
-        ("scaler", StandardScaler())
-    ])
+    return X_train, X_test, y_train, y_test, preprocessor
 
-    categorical_pipeline = Pipeline([
-        ("imputer", SimpleImputer(strategy="most_frequent")),
-        ("encoder", OneHotEncoder(handle_unknown="ignore"))
-    ])
 
-    preprocessor = ColumnTransformer([
-        ("numerical", numerical_pipeline, numerical_columns),
-        ("categorical", categorical_pipeline, categorical_columns)
-    ])
+def prepare_data(df, target_column, problem_type, feature_columns=None):
 
-    X_train, X_test, y_train, y_test = train_test_split(
-        X,
-        y,
-        test_size=0.2,
-        random_state=42
+    X_train, X_test, y_train, y_test, preprocessor = prepare_raw_data(
+        df,
+        target_column,
+        problem_type,
+        feature_columns
     )
 
     X_train = preprocessor.fit_transform(X_train)
