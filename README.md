@@ -23,9 +23,22 @@
     - `files.py`      list and read files
     - `csv_tools.py`  sum, average, filter, top N, group-by, correlation
     - `rag.py`        document search
-    - `ml.py`         train models and predict
+    - `ml.py`         agent-facing tools to train, select, and use models
     - `__init__.py`   gathers all tools and describes them to the AI
+- `ml/workflow.py`: the underlying ML steps: prepare data, train, evaluate, save, and predict
+- `examples/`: small runnable checks showing how each part works
 - `workspace/`: the only folder the agent can touch (put your own CSV in input/, documents in knowledge/)
+    - `output/models/`: saved trained models
+
+## Run the examples
+From this folder, run:
+
+    py -3 -m examples.tool_registry
+    py -3 -m examples.csv_preprocessing
+    py -3 -m examples.classification_workflow
+    py -3 -m examples.regression_workflow
+
+The classification and regression examples train models and save them in `workspace/output/models/`.
 
 ## If a model name stops working
 Groq sometimes retires models. Change the `MODEL = ...` line near the top of agent.py to a current one from https://console.groq.com/docs/models (pick one that supports tool use).

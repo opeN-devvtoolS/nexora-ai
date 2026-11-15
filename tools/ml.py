@@ -2,11 +2,16 @@
 import pandas as pd
 from pathlib import Path
 
-from ml.preprocessing import prepare_raw_data
-from ml.training import train_models, get_models
-from ml.evaluation import evaluate_models,cross_validate_models
-from ml.model_persistence import save_model, load_model
-from ml.prediction import predict_with_saved_model
+from ml.workflow import (
+    prepare_raw_data,
+    train_models,
+    get_models,
+    evaluate_models,
+    cross_validate_models,
+    save_model,
+    load_model,
+    predict_with_saved_model,
+)
 
 
 MODEL_DIR = Path("workspace/output/models")

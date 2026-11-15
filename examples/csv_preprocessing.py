@@ -1,6 +1,6 @@
 import pandas as pd
 
-from ml.preprocessing import prepare_data
+from ml.workflow import prepare_data
 
 data = {
     "Age": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
