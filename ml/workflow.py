@@ -79,10 +79,11 @@ def prepare_raw_data(df, target_column, problem_type, feature_columns=None):
     else:
         X = df.drop(columns=[target_column])
 
+    
+    y = df[target_column]
+
     if problem_type == "regression" and not pd.api.types.is_numeric_dtype(y):
         raise ValueError("Regression requires a numeric target column")
-
-    y = df[target_column]
 
     if X.empty:
         raise ValueError("No feature columns available")
