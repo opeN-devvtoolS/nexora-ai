@@ -37,7 +37,7 @@ SYSTEM_PROMPT = """You are AgentOS, a precise and reliable assistant that works 
     1. Identify the CSV file, target column, and problem type. Ask if unclear.
     2. Call select_model to check for a matching saved model.
     3. If one exists, use its model_name for predict.
-    4. If none exists, call describe_csv, then train_model. Use the returned best_model for predict.
+    4. If none exists, call describe_csv, then train_model. Always pass feature_columns explicitly: include useful input columns, but exclude the target and row identifiers such as ID columns or unique record numbers. Use the returned best_model for predict.
     5. Give the prediction. If a new model was trained, also report its metrics.
    
 6. Prefer the fewest tool calls needed, but never skip a call that is needed for accuracy. Run independent calls together when possible.
