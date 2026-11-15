@@ -2,7 +2,7 @@
 from tools.ml import train_model, list_models, select_model
 
 result = train_model(
-    "workspace/input/students.csv",
+    "students.csv",
     "score",
     "regression",
     ["class", "attendance", "study_hours"]

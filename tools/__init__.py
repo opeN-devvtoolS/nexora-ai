@@ -147,7 +147,9 @@ TOOL_LIST = [
         "train_model",
         "Train and evaluate machine learning models using a CSV dataset, then save the best model.",
         {
-            "csv_path": {"type": "string"},
+            "csv_path": {
+                "type": "string",
+                "description": "CSV filename in workspace/input"},
             "target_column": {"type": "string"},
             "problem_type": {
                 "type": "string",

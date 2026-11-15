@@ -4,7 +4,7 @@ from tools.ml import train_model, list_models, predict, select_model
 
 # STEP 1: Train a model
 result = train_model(
-    "workspace/input/students.csv",
+    "students.csv",
     "passed",
     "classification",
     ["class", "score", "attendance", "study_hours"]

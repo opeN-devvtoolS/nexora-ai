@@ -1,6 +1,7 @@
 
 import pandas as pd
 from pathlib import Path
+from tools.csv_tools import load_csv
 
 from ml.workflow import (
     prepare_raw_data,
@@ -20,7 +21,7 @@ MODEL_DIR = Path("workspace/output/models")
 
 def train_model(csv_path, target_column, problem_type, feature_columns=None):
 
-    df = pd.read_csv(csv_path)
+    df = load_csv(csv_path)
 
     features_used = (
         feature_columns
