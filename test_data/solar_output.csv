@@ -1,0 +1,221 @@
+site_id,sunshine_hours,cloud_cover_pct,panel_age_years,panel_capacity_kw,panel_type,daily_energy_kwh
+SOL-0001,9.1,7,,8.7,,37.44
+SOL-0002,6.0,85,5,8.5,Monocrystalline,21.22
+SOL-0003,10.4,42,13,5.4,Thin Film,19.18
+SOL-0004,11.5,8,15,4.1,Monocrystalline,31.64
+SOL-0005,7.2,18,20,6.3,Thin Film,15.87
+SOL-0006,9.0,80,13,7.8,Monocrystalline,22.5
+SOL-0007,3.0,55,3,5.6,Monocrystalline,13.05
+SOL-0008,9.7,41,9,11.3,Polycrystalline,52.79
+SOL-0009,4.8,29,15,3.9,Monocrystalline,7.06
+SOL-0010,7.9,77,14,7.0,Monocrystalline,15.7
+SOL-0011,1.6,6,14,3.7,Monocrystalline,1.68
+SOL-0012,4.7,8,13,10.9,Monocrystalline,32.26
+SOL-0013,2.5,45,7,6.4,Thin Film,6.38
+SOL-0014,12.0,90,10,6.7,Thin Film,19.03
+SOL-0015,6.1,31,13,11.0,Thin Film,24.09
+SOL-0016,5.5,53,11,8.2,Monocrystalline,19.51
+SOL-0017,4.9,83,16,5.9,Thin Film,7.94
+SOL-0018,4.7,95,0,11.1,Monocrystalline,16.73
+SOL-0019,3.6,67,18,11.0,Monocrystalline,12.37
+SOL-0020,11.9,59,20,11.8,Thin Film,39.29
+SOL-0021,8.3,8,19,7.0,Polycrystalline,34.33
+SOL-0022,8.0,4,9,8.2,Thin Film,34.06
+SOL-0023,4.5,55,15,9.8,Polycrystalline,15.73
+SOL-0024,5.2,30,4,9.5,Thin Film,20.53
+SOL-0025,9.0,73,6,5.0,Monocrystalline,17.49
+SOL-0026,7.4,3,2,11.4,Thin Film,47.63
+SOL-0027,8.6,37,13,6.6,Thin Film,20.58
+SOL-0028,7.2,67,,8.3,Thin Film,20.8
+SOL-0029,4.8,84,1,11.4,Monocrystalline,21.77
+SOL-0030,2.1,17,14,5.2,Thin Film,4.3
+SOL-0031,5.4,65,4,7.1,Monocrystalline,20.75
+SOL-0032,11.9,29,6,5.1,Monocrystalline,39.76
+SOL-0033,3.3,12,17,10.5,Polycrystalline,20.53
+SOL-0034,11.2,51,7,10.0,Thin Film,41.09
+SOL-0035,4.6,44,15,10.3,Polycrystalline,21.71
+SOL-0036,5.6,79,17,10.3,Thin Film,14.55
+SOL-0037,9.9,70,20,10.8,Monocrystalline,41.16
+SOL-0038,6.7,60,13,7.1,Polycrystalline,24.15
+SOL-0039,10.4,58,7,4.7,Polycrystalline,20.49
+SOL-0040,1.9,68,10,2.1,,3.6
+SOL-0041,10.8,34,4,11.9,Polycrystalline,65.41
+SOL-0042,7.9,26,4,2.1,Thin Film,6.97
+SOL-0043,4.5,20,16,5.4,Thin Film,7.63
+SOL-0044,10.5,71,6,10.8,Polycrystalline,42.97
+SOL-0045,8.3,41,6,11.6,Monocrystalline,56.84
+SOL-0046,11.1,57,2,3.6,Polycrystalline,20.38
+SOL-0047,1.2,71,15,10.6,Thin Film,0.1
+SOL-0048,2.5,91,15,6.3,Polycrystalline,1.46
+SOL-0049,8.5,39,20,2.7,Monocrystalline,11.05
+SOL-0050,11.4,86,12,4.1,Thin Film,11.86
+SOL-0051,4.4,5,16,2.5,Monocrystalline,7.06
+SOL-0052,8.6,63,9,9.9,Polycrystalline,33.46
+SOL-0053,11.5,6,10,2.7,Monocrystalline,17.77
+SOL-0054,7.9,18,14,9.2,Polycrystalline,39.21
+SOL-0055,1.3,48,,9.4,Polycrystalline,5.53
+SOL-0056,3.3,17,6,9.1,Polycrystalline,16.69
+SOL-0057,5.6,6,7,2.1,Polycrystalline,5.69
+SOL-0058,8.1,5,0,11.9,Thin Film,54.75
+SOL-0059,5.5,83,0,3.8,Thin Film,1.18
+SOL-0060,3.1,61,15,7.6,Thin Film,6.52
+SOL-0061,9.4,39,1,4.6,Polycrystalline,23.66
+SOL-0062,6.6,55,11,4.6,Thin Film,10.73
+SOL-0063,4.9,54,8,10.2,Polycrystalline,19.71
+SOL-0064,6.1,3,1,10.9,Monocrystalline,56.0
+SOL-0065,3.9,67,1,5.2,Thin Film,9.28
+SOL-0066,6.5,75,18,7.2,Thin Film,10.09
+SOL-0067,8.9,27,18,8.0,Monocrystalline,36.94
+SOL-0068,10.2,24,15,8.3,Monocrystalline,48.68
+SOL-0069,4.9,42,15,8.0,Monocrystalline,17.25
+SOL-0070,6.5,26,2,2.3,Thin Film,8.56
+SOL-0071,4.2,28,11,2.5,Thin Film,8.52
+SOL-0072,5.8,77,2,8.5,Thin Film,9.55
+SOL-0073,2.8,94,15,4.5,Polycrystalline,0.1
+SOL-0074,5.0,67,12,8.1,Thin Film,14.53
+SOL-0075,2.3,30,9,6.5,Thin Film,9.51
+SOL-0076,6.0,90,10,6.5,Polycrystalline,9.41
+SOL-0077,9.4,62,14,11.8,Polycrystalline,44.7
+SOL-0078,9.9,2,8,8.8,Polycrystalline,54.73
+SOL-0079,11.1,44,17,5.9,,32.56
+SOL-0080,3.3,22,19,9.5,Thin Film,13.49
+SOL-0081,9.9,41,16,9.4,Polycrystalline,42.85
+SOL-0082,2.9,39,,10.2,Thin Film,10.92
+SOL-0083,7.9,28,13,3.5,Thin Film,7.82
+SOL-0084,1.4,57,2,3.6,Monocrystalline,0.48
+SOL-0085,5.9,95,11,2.4,Thin Film,6.15
+SOL-0086,6.6,29,14,2.2,Polycrystalline,9.42
+SOL-0087,7.1,80,15,3.6,Monocrystalline,9.93
+SOL-0088,7.0,36,19,7.1,Monocrystalline,24.01
+SOL-0089,1.0,66,6,8.9,Monocrystalline,6.5
+SOL-0090,7.5,29,16,3.0,Monocrystalline,15.24
+SOL-0091,1.5,75,6,3.9,Polycrystalline,0.1
+SOL-0092,9.9,62,19,4.8,Thin Film,12.68
+SOL-0093,8.5,77,15,7.4,Thin Film,14.65
+SOL-0094,1.1,24,5,4.3,Polycrystalline,0.1
+SOL-0095,2.0,19,13,2.5,Monocrystalline,2.92
+SOL-0096,7.6,26,16,3.3,Monocrystalline,14.34
+SOL-0097,6.6,56,17,9.6,Monocrystalline,28.5
+SOL-0098,1.4,56,2,7.1,Polycrystalline,2.63
+SOL-0099,5.3,46,17,6.7,Polycrystalline,13.51
+SOL-0100,10.7,55,16,6.7,Thin Film,16.88
+SOL-0101,3.3,16,17,9.5,Thin Film,12.42
+SOL-0102,10.2,87,4,7.8,Monocrystalline,33.7
+SOL-0103,5.1,74,10,8.2,Polycrystalline,15.93
+SOL-0104,8.0,46,9,6.2,Monocrystalline,27.37
+SOL-0105,7.5,90,18,5.4,Monocrystalline,12.44
+SOL-0106,2.6,94,11,2.3,Monocrystalline,3.86
+SOL-0107,3.5,41,3,11.3,Thin Film,16.99
+SOL-0108,7.0,13,7,8.2,Thin Film,30.82
+SOL-0109,10.3,26,,4.9,Monocrystalline,28.4
+SOL-0110,10.4,90,5,10.2,Thin Film,26.05
+SOL-0111,4.2,3,13,2.3,Thin Film,1.89
+SOL-0112,1.6,1,5,3.1,Polycrystalline,1.14
+SOL-0113,2.7,47,10,2.7,Polycrystalline,4.01
+SOL-0114,8.3,77,6,2.9,Monocrystalline,11.46
+SOL-0115,2.0,93,0,2.1,Polycrystalline,0.1
+SOL-0116,6.6,1,7,12.0,Polycrystalline,50.58
+SOL-0117,5.7,69,10,8.9,Thin Film,18.02
+SOL-0118,4.5,28,9,10.4,,19.15
+SOL-0119,11.0,10,4,8.0,Polycrystalline,54.8
+SOL-0120,5.7,10,9,3.6,Thin Film,6.68
+SOL-0121,6.5,46,20,5.7,Thin Film,14.57
+SOL-0122,10.7,14,19,11.9,Thin Film,51.1
+SOL-0123,8.2,22,19,4.0,Polycrystalline,18.55
+SOL-0124,8.0,6,17,8.1,Monocrystalline,38.94
+SOL-0125,1.3,80,13,9.8,Polycrystalline,6.05
+SOL-0126,8.9,20,1,11.0,Polycrystalline,59.21
+SOL-0127,7.1,43,13,7.8,Polycrystalline,28.58
+SOL-0128,6.9,5,13,8.9,Polycrystalline,38.51
+SOL-0129,5.3,49,13,12.0,Monocrystalline,32.76
+SOL-0130,11.3,57,17,5.1,Monocrystalline,21.63
+SOL-0131,2.0,89,0,8.4,Polycrystalline,3.74
+SOL-0132,8.7,90,9,5.1,Thin Film,11.71
+SOL-0133,10.5,85,20,3.4,Thin Film,5.66
+SOL-0134,2.2,65,7,10.1,Thin Film,7.06
+SOL-0135,9.9,58,6,5.6,Monocrystalline,29.04
+SOL-0136,3.7,71,,4.7,Thin Film,3.8
+SOL-0137,6.2,36,2,4.2,Polycrystalline,12.77
+SOL-0138,6.1,21,12,10.8,Polycrystalline,37.15
+SOL-0139,2.4,64,11,8.8,Polycrystalline,6.84
+SOL-0140,2.7,20,2,11.6,Thin Film,14.38
+SOL-0141,1.4,47,7,11.3,Monocrystalline,3.56
+SOL-0142,1.2,15,13,3.7,Monocrystalline,0.1
+SOL-0143,9.6,82,7,4.5,Thin Film,14.36
+SOL-0144,2.6,41,19,7.6,Monocrystalline,7.92
+SOL-0145,10.8,77,15,7.9,Thin Film,21.58
+SOL-0146,11.0,3,7,5.0,Thin Film,31.43
+SOL-0147,9.4,57,11,8.3,Monocrystalline,35.64
+SOL-0148,8.2,41,20,2.4,Thin Film,7.22
+SOL-0149,3.1,84,6,3.1,Thin Film,0.1
+SOL-0150,8.7,4,14,6.1,Polycrystalline,28.42
+SOL-0151,6.7,14,3,2.0,Monocrystalline,12.36
+SOL-0152,3.4,36,17,6.5,Thin Film,8.99
+SOL-0153,8.0,18,6,10.0,Monocrystalline,55.77
+SOL-0154,7.3,58,3,8.7,Monocrystalline,37.45
+SOL-0155,4.6,10,1,8.3,Thin Film,24.1
+SOL-0156,3.9,79,3,9.5,Monocrystalline,14.61
+SOL-0157,5.1,2,1,6.2,,18.37
+SOL-0158,10.8,91,13,6.2,Thin Film,17.36
+SOL-0159,8.6,85,11,4.8,Thin Film,9.63
+SOL-0160,8.7,81,4,9.0,Polycrystalline,25.52
+SOL-0161,3.9,28,16,2.4,Thin Film,4.27
+SOL-0162,8.5,59,11,7.3,Thin Film,22.2
+SOL-0163,3.6,51,,7.5,Polycrystalline,15.02
+SOL-0164,5.8,41,6,10.0,Thin Film,24.77
+SOL-0165,7.2,60,1,7.7,Polycrystalline,27.36
+SOL-0166,2.0,39,11,2.6,Thin Film,4.93
+SOL-0167,6.1,10,16,8.2,Thin Film,20.94
+SOL-0168,4.2,12,10,4.2,Monocrystalline,11.94
+SOL-0169,3.3,0,9,5.4,Monocrystalline,10.96
+SOL-0170,7.8,10,13,5.8,Thin Film,21.22
+SOL-0171,4.4,55,1,2.7,Polycrystalline,4.23
+SOL-0172,8.4,83,9,11.8,Thin Film,24.28
+SOL-0173,11.2,55,8,4.1,Thin Film,14.5
+SOL-0174,4.5,57,19,8.0,Thin Film,9.97
+SOL-0175,10.0,16,3,8.5,Monocrystalline,63.48
+SOL-0176,8.3,94,13,10.2,Thin Film,19.97
+SOL-0177,2.4,20,18,10.9,Thin Film,8.47
+SOL-0178,8.4,0,18,11.2,Polycrystalline,55.99
+SOL-0179,2.7,51,9,10.5,Monocrystalline,13.28
+SOL-0180,6.9,48,6,5.4,Polycrystalline,18.16
+SOL-0181,6.1,2,13,7.3,Monocrystalline,26.07
+SOL-0182,6.4,91,7,2.3,Polycrystalline,1.64
+SOL-0183,1.8,18,7,2.0,Thin Film,2.39
+SOL-0184,7.9,8,7,4.0,Polycrystalline,18.34
+SOL-0185,5.5,34,18,7.9,Polycrystalline,19.33
+SOL-0186,2.6,51,2,4.1,Polycrystalline,3.85
+SOL-0187,1.5,1,5,6.0,Monocrystalline,8.33
+SOL-0188,10.8,39,2,4.1,Polycrystalline,19.72
+SOL-0189,7.2,44,18,10.9,Thin Film,27.12
+SOL-0190,5.1,26,,5.9,Thin Film,13.85
+SOL-0191,2.0,58,10,6.5,Polycrystalline,2.48
+SOL-0192,7.8,43,2,5.0,Thin Film,17.73
+SOL-0193,1.4,92,2,4.8,Polycrystalline,2.6
+SOL-0194,4.3,2,9,11.6,Polycrystalline,33.76
+SOL-0195,3.9,23,12,5.5,Thin Film,10.47
+SOL-0196,10.8,84,3,3.3,,10.04
+SOL-0197,8.7,19,5,4.6,Thin Film,19.25
+SOL-0198,2.6,13,19,9.9,Polycrystalline,12.57
+SOL-0199,10.6,55,7,10.1,Monocrystalline,51.12
+SOL-0200,7.7,87,6,8.6,Thin Film,16.59
+SOL-0201,8.8,74,14,5.3,Polycrystalline,18.6
+SOL-0202,9.6,78,17,7.4,Monocrystalline,23.38
+SOL-0203,8.2,86,20,8.3,Thin Film,16.6
+SOL-0204,7.6,62,15,2.3,Thin Film,4.43
+SOL-0205,6.9,38,3,8.0,Monocrystalline,34.24
+SOL-0206,5.1,38,3,10.5,Thin Film,20.89
+SOL-0207,10.3,55,8,6.6,Thin Film,26.26
+SOL-0208,9.3,52,18,4.8,Thin Film,9.09
+SOL-0209,11.2,29,17,11.6,Polycrystalline,59.59
+SOL-0210,2.5,29,5,2.7,Polycrystalline,4.38
+SOL-0211,10.2,53,18,11.6,Monocrystalline,54.09
+SOL-0212,11.6,51,17,6.1,Thin Film,20.78
+SOL-0213,3.2,35,1,6.6,Thin Film,9.88
+SOL-0214,7.9,36,10,7.9,Thin Film,26.15
+SOL-0215,5.1,54,13,10.5,Monocrystalline,27.08
+SOL-0216,6.3,84,17,3.0,Monocrystalline,3.31
+SOL-0217,7.1,67,,10.0,Polycrystalline,27.46
+SOL-0218,10.6,12,12,7.7,Thin Film,35.38
+SOL-0219,10.7,57,3,8.1,Monocrystalline,45.73
+SOL-0220,5.0,43,1,10.0,Polycrystalline,25.22
