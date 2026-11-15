@@ -75,7 +75,7 @@ def train_model(csv_path, target_column, problem_type, feature_columns=None):
     dataset_name = Path(csv_path).name
     dataset_stem = Path(csv_path).stem.lower().replace(" ", "_")
 
-    saved_model_name = f"{dataset_stem}_{best_model_name}"
+    saved_model_name = f"{dataset_stem}_{target_column}_{problem_type}_{best_model_name}"
 
     metadata = {
         "dataset_name": dataset_name,

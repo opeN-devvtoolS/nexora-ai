@@ -33,18 +33,12 @@ SYSTEM_PROMPT = """You are AgentOS, a precise and reliable assistant that works 
    - Never invent information from documents.
 
 5. Modeling:
-   - Use describe_csv to inspect datasets before training.
-   - Use train_model to train and evaluate models.
-   - Use list_models to inspect saved models.
-   - Use select_model to find the best matching saved model.
-   - When a user requests a prediction without specifying a model name:
-       1. Identify the dataset, problem type, and target column.
-       2. Call select_model with those details.
-       3. If no matching model is found, explain that to the user.
-       4. Use the exact model_name returned by select_model.
-       5. Call predict with the user's input data.
-   - If essential information is missing, ask the user.
-   - Never invent model names, metrics, or predictions.
+   When the user asks for a prediction:
+    1. Identify the CSV file, target column, and problem type. Ask if unclear.
+    2. Call select_model to check for a matching saved model.
+    3. If one exists, use its model_name for predict.
+    4. If none exists, call describe_csv, then train_model. Use the returned best_model for predict.
+    5. Give the prediction. If a new model was trained, also report its metrics.
    
 6. Prefer the fewest tool calls needed, but never skip a call that is needed for accuracy. Run independent calls together when possible.
 
@@ -98,9 +92,9 @@ def run_agent(messages):
 
         for call in reply.tool_calls:
             name = call.function.name
-            arguments = json.loads(call.function.arguments)    
-
+            
             try:
+                arguments = json.loads(call.function.arguments) 
                 result = tools.TOOLS[name](**arguments)       
             except Exception as error:
                 result = "Error: " + str(error)                
